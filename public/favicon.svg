@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Dark background circle -->
+  <circle cx="256" cy="256" r="256" fill="#1a1a2e"/>
+  
+  <!-- Baseball sphere -->
+  <circle cx="256" cy="256" r="180" fill="#0f172a" stroke="#22d3ee" stroke-width="3"/>
+  
+  <!-- Vertical seam lines (green tech lines) -->
+  <path d="M 256 76 Q 220 150, 220 256 Q 220 362, 256 436" 
+        fill="none" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 256 76 Q 292 150, 292 256 Q 292 362, 256 436" 
+        fill="none" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Horizontal seam lines -->
+  <ellipse cx="256" cy="256" rx="180" ry="60" 
+           fill="none" stroke="#22d3ee" stroke-width="3" stroke-dasharray="10,5"/>
+  <ellipse cx="256" cy="256" rx="180" ry="120" 
+           fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="8,4" opacity="0.6"/>
+  
+  <!-- Stitch marks (small dashes along seams) -->
+  <path d="M 235 100 l -10 5 M 235 130 l -10 5 M 235 160 l -10 5 M 235 190 l -10 5 M 235 220 l -10 5" 
+        stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 277 100 l 10 5 M 277 130 l 10 5 M 277 160 l 10 5 M 277 190 l 10 5 M 277 220 l 10 5" 
+        stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 235 292 l -10 -5 M 235 322 l -10 -5 M 235 352 l -10 -5 M 235 382 l -10 -5 M 235 412 l -10 -5" 
+        stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 277 292 l 10 -5 M 277 322 l 10 -5 M 277 352 l 10 -5 M 277 382 l 10 -5 M 277 412 l 10 -5" 
+        stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Tech grid overlay (subtle) -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#3b82f6" stroke-width="1" opacity="0.2" stroke-dasharray="2,8"/>
+  <circle cx="256" cy="256" r="140" fill="none" stroke="#3b82f6" stroke-width="1" opacity="0.2" stroke-dasharray="2,8"/>
+  <circle cx="256" cy="256" r="100" fill="none" stroke="#3b82f6" stroke-width="1" opacity="0.2" stroke-dasharray="2,8"/>
+  
+  <!-- Glow effect -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#22d3ee" stroke-width="2" opacity="0.3" filter="url(#glow)"/>
+  
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
