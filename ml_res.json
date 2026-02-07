@@ -39,7 +39,7 @@
     {
       "id": 5,
       "result": "this player can catch and, while they're not a plus runner, they have a chance to be a plus defender at the position.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 40,
       "grade_run": 40,
       "grade_throw": 50,
@@ -76,7 +76,7 @@
       "id": 9,
       "result": "this player can handle second, third and shortstop, but they're not particularly graceful at any of them.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -85,7 +85,7 @@
       "id": 10,
       "result": "this player can handle second, third and shortstop, but they're better suited to a corner.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -112,7 +112,7 @@
       "id": 15,
       "result": "this player can really fly and tracks down balls in center field, and they have a chance to be an average everyday player.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 65,
       "grade_throw": 45,
       "grade_field": 60
@@ -130,8 +130,8 @@
       "id": 17,
       "result": "this player can really run, they have a great first step and enough speed to compensate for their lack of raw power.",
       "grade_hit": 45,
-      "grade_power": 45,
-      "grade_run": 55,
+      "grade_power": 35,
+      "grade_run": 65,
       "grade_throw": 45,
       "grade_field": 45
     },
@@ -140,7 +140,7 @@
       "result": "this player can really run, they have a strong arm, and they're a plus defender at shortstop.",
       "grade_hit": 45,
       "grade_power": 40,
-      "grade_run": 55,
+      "grade_run": 65,
       "grade_throw": 60,
       "grade_field": 60
     },
@@ -319,7 +319,7 @@
       "id": 50,
       "result": "this player could be a utility player, but their lack of power and arm strength could prevent them from playing every day.",
       "grade_hit": 45,
-      "grade_power": 45,
+      "grade_power": 35,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 45
@@ -346,7 +346,7 @@
       "id": 53,
       "result": "this player could be a very good defensive shortstop, but they're still learning the finer aspects of playing the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -355,7 +355,7 @@
       "id": 56,
       "result": "this player could be a very good offensive shortstop with a chance to be an average everyday player.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -418,7 +418,7 @@
       "id": 66,
       "result": "this player could end up being a solid defensive shortstop with a strong arm and good hands.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -481,7 +481,7 @@
       "id": 76,
       "result": "this player could hit for a huge average and has a chance to be an above-average defensive shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -490,7 +490,7 @@
       "id": 78,
       "result": "this player could hit for a huge average, and they have a chance to be a solid defensive shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -499,7 +499,7 @@
       "id": 79,
       "result": "this player could hit for a solid average and has a chance to be a fringe-average defender at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -517,7 +517,7 @@
       "id": 81,
       "result": "this player could hit for a solid average and has a chance to be an above-average defender at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 60
@@ -543,7 +543,7 @@
     {
       "id": 85,
       "result": "this player could hit for average because they have a short, quick swing that should allow them to make strong contact.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -561,7 +561,7 @@
     {
       "id": 87,
       "result": "this player could hit for average because they have a lightning-quick bat and a short stroke.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -571,7 +571,7 @@
       "id": 88,
       "result": "this player could move quickly and projects to be a solid defensive shortstop with a strong arm and soft hands.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 50,
       "grade_throw": 60,
       "grade_field": 55
@@ -607,16 +607,16 @@
       "id": 92,
       "result": "this player could move to right field as a pro, but they have a strong arm and a chance to stick at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
-      "grade_field": 55
+      "grade_field": 50
     },
     {
       "id": 99,
       "result": "this player could play a ton of games in center field, but they're still learning the finer aspects of playing the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -652,7 +652,7 @@
       "id": 104,
       "result": "this player could potentially be a very good defensive shortstop, but they're not quite big enough to be an everyday player.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -661,7 +661,7 @@
       "id": 105,
       "result": "this player could potentially be a very good defensive center fielder, but they have a lot of work to do with their hands and footwork.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -733,7 +733,7 @@
       "id": 117,
       "result": "this player could quickly be a starting option at shortstop, and they have a chance to be a solid defender there as well.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 60
@@ -769,7 +769,7 @@
       "id": 122,
       "result": "this player could quickly develop into a glove-first shortstop with a chance to be an average defender at the position.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -841,7 +841,7 @@
       "id": 132,
       "result": "this player could stand to be quicker to the ball and they have a chance to be a solid defensive center fielder.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -850,7 +850,7 @@
       "id": 134,
       "result": "this player could stand to be quicker to the ball and they have a chance to be a fringe-average defender at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -903,7 +903,7 @@
     {
       "id": 141,
       "result": "this player has a amazing eye for the strike zone, and their swing is geared toward making contact.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -912,7 +912,7 @@
     {
       "id": 142,
       "result": "this player has a amazing eye for the strike zone, and they should be able to maintain a high on-base percentage.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -930,7 +930,7 @@
     {
       "id": 144,
       "result": "this player has a amazing eye for the strike zone, and they project to have a strong batting average because of it.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -939,17 +939,17 @@
     {
       "id": 147,
       "result": "this player has a big frame that suggests they're destined for the outfield corners, but they have a quick enough bat to make contact.",
-      "grade_hit": 45,
-      "grade_power": 45,
+      "grade_hit": 50,
+      "grade_power": 50,
       "grade_run": 45,
       "grade_throw": 45,
-      "grade_field": 45
+      "grade_field": 40
     },
     {
       "id": 149,
       "result": "this player has a big frame that suggests they could be a power hitter, but they're still learning to tap into it.",
       "grade_hit": 45,
-      "grade_power": 45,
+      "grade_power": 50,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 45
@@ -958,7 +958,7 @@
       "id": 150,
       "result": "this player has a big frame that the scouts love, but they're still learning how to use it to drive the ball in game situations.",
       "grade_hit": 45,
-      "grade_power": 45,
+      "grade_power": 50,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 45
@@ -967,7 +967,7 @@
       "id": 151,
       "result": "this player has a big frame that the scouts like, and they have a chance to be a plus defender at first base.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 50,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 60
@@ -976,7 +976,7 @@
       "id": 152,
       "result": "this player has a big frame that the scouts love, and they have a chance to be a plus runner and defender in center field.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 50,
       "grade_run": 60,
       "grade_throw": 45,
       "grade_field": 55
@@ -1011,7 +1011,7 @@
     {
       "id": 157,
       "result": "this player has a center-field profile with plus raw power and a strong arm, but their timing and all-around feel for hitting are below average.",
-      "grade_hit": 40,
+      "grade_hit": 35,
       "grade_power": 60,
       "grade_run": 45,
       "grade_throw": 60,
@@ -1020,11 +1020,11 @@
     {
       "id": 158,
       "result": "this player has a center-field profile grounded in their plus speed, range, and arm, and they're a plus runner.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 40,
       "grade_run": 60,
-      "grade_throw": 45,
-      "grade_field": 45
+      "grade_throw": 50,
+      "grade_field": 50
     },
     {
       "id": 159,
@@ -1039,7 +1039,7 @@
       "id": 160,
       "result": "this player has a chance to be a fringe-average everyday shortstop, but they're still learning the finer aspects of playing the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -1092,7 +1092,7 @@
     {
       "id": 170,
       "result": "this player has a chance to make contact and hit for a high batting average, but their time horizon to the big leagues has shifted dramatically.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -1209,7 +1209,7 @@
     {
       "id": 190,
       "result": "this player has a decent utility profile as a bat-first infielder, but their time horizon to the big leagues has shifted dramatically.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -1335,7 +1335,7 @@
     {
       "id": 206,
       "result": "this player has a fairly longish swing and is a below-average runner, but they have a chance to be an average everyday player because of their power.",
-      "grade_hit": 50,
+      "grade_hit": 40,
       "grade_power": 45,
       "grade_run": 50,
       "grade_throw": 45,
@@ -1390,7 +1390,7 @@
       "id": 214,
       "result": "this player has a good chance to develop into an average everyday shortstop with above-average range and a strong arm.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -1443,7 +1443,7 @@
     {
       "id": 220,
       "result": "this player has a great swing built for power, but they also have a lot of holes in their swing that are exploited by quality pitching.",
-      "grade_hit": 55,
+      "grade_hit": 45,
       "grade_power": 60,
       "grade_run": 45,
       "grade_throw": 45,
@@ -1452,7 +1452,7 @@
     {
       "id": 221,
       "result": "this player has a great swing built for power, and they project to be an above-average runner.",
-      "grade_hit": 55,
+      "grade_hit": 45,
       "grade_power": 60,
       "grade_run": 55,
       "grade_throw": 45,
@@ -1470,7 +1470,7 @@
     {
       "id": 223,
       "result": "this player has a great swing built for power and a patient approach, but they also have a history of striking out in pro ball.",
-      "grade_hit": 55,
+      "grade_hit": 50,
       "grade_power": 60,
       "grade_run": 45,
       "grade_throw": 45,
@@ -1479,7 +1479,7 @@
     {
       "id": 224,
       "result": "this player has a great swing built for power, but they're still learning to tap into it in game situations.",
-      "grade_hit": 55,
+      "grade_hit": 45,
       "grade_power": 60,
       "grade_run": 45,
       "grade_throw": 45,
@@ -1488,7 +1488,7 @@
     {
       "id": 225,
       "result": "this player has a great swing built for power and they're able to keep the ball in the air all day.",
-      "grade_hit": 55,
+      "grade_hit": 45,
       "grade_power": 60,
       "grade_run": 45,
       "grade_throw": 45,
@@ -1533,7 +1533,7 @@
     {
       "id": 230,
       "result": "this player has a great swing that some think will produce above-average raw power, but they're still learning to tap into it in games.",
-      "grade_hit": 55,
+      "grade_hit": 45,
       "grade_power": 55,
       "grade_run": 45,
       "grade_throw": 45,
@@ -1542,7 +1542,7 @@
     {
       "id": 231,
       "result": "this player has a great swing that some scouts think will produce strong, consistent contact, and they should be able to hit for a high average.",
-      "grade_hit": 55,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -1551,7 +1551,7 @@
     {
       "id": 232,
       "result": "this player has a great swing that some scouts like, but it\u2019s also very pull-only, so there are questions about their ability to make contact.",
-      "grade_hit": 55,
+      "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -1560,7 +1560,7 @@
     {
       "id": 233,
       "result": "this player has a great swing that some think will allow them to hit for a high average.",
-      "grade_hit": 55,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -1615,7 +1615,7 @@
       "id": 240,
       "result": "this player has a high-effort swing that limits their power to the gaps, but they make up for it with a patient approach and outstanding bat control.",
       "grade_hit": 50,
-      "grade_power": 55,
+      "grade_power": 35,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 45
@@ -1654,12 +1654,12 @@
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
-      "grade_field": 50
+      "grade_field": 40
     },
     {
       "id": 250,
       "result": "this player has a limited feel to hit and their timing is a bit stiff, so they're likely to be a below-average hitter.",
-      "grade_hit": 50,
+      "grade_hit": 35,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -1668,7 +1668,7 @@
     {
       "id": 252,
       "result": "this player has a longish swing and is likely to produce modest on-base rates, but they have a chance to be an average everyday player.",
-      "grade_hit": 50,
+      "grade_hit": 40,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -1686,7 +1686,7 @@
     {
       "id": 254,
       "result": "this player has a longish swing and they're still learning to tap into their raw power, so they're mostly a ground-ball hitter.",
-      "grade_hit": 45,
+      "grade_hit": 40,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -1794,10 +1794,10 @@
     {
       "id": 271,
       "result": "this player has a lot of work to do with the bat, but they have a chance to be a plus runner and plus defender at shortstop.",
-      "grade_hit": 45,
+      "grade_hit": 35,
       "grade_power": 40,
       "grade_run": 60,
-      "grade_throw": 45,
+      "grade_throw": 50,
       "grade_field": 60
     },
     {
@@ -1867,7 +1867,7 @@
       "id": 283,
       "result": "this player has a plus arm and range, but they're still learning the finer aspects of playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -1875,7 +1875,7 @@
     {
       "id": 284,
       "result": "this player has a plus arm and range, and they're a plus runner, so they should be able to stick at shortstop.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 40,
       "grade_run": 60,
       "grade_throw": 60,
@@ -1993,7 +1993,7 @@
       "id": 300,
       "result": "this player has a plus arm, range, and a strong, accurate, dependable glove in center field, and they should be an above-average defender.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -2074,9 +2074,9 @@
       "id": 311,
       "result": "this player has a pretty standard right-field profile grounded in raw power and speed, but they also have a chance to be an above-average defender.",
       "grade_hit": 45,
-      "grade_power": 45,
-      "grade_run": 45,
-      "grade_throw": 45,
+      "grade_power": 55,
+      "grade_run": 55,
+      "grade_throw": 55,
       "grade_field": 55
     },
     {
@@ -2085,7 +2085,7 @@
       "grade_hit": 50,
       "grade_power": 55,
       "grade_run": 45,
-      "grade_throw": 45,
+      "grade_throw": 55,
       "grade_field": 45
     },
     {
@@ -2094,7 +2094,7 @@
       "grade_hit": 45,
       "grade_power": 60,
       "grade_run": 45,
-      "grade_throw": 45,
+      "grade_throw": 55,
       "grade_field": 45
     },
     {
@@ -2103,7 +2103,7 @@
       "grade_hit": 45,
       "grade_power": 60,
       "grade_run": 45,
-      "grade_throw": 45,
+      "grade_throw": 55,
       "grade_field": 45
     },
     {
@@ -2164,7 +2164,7 @@
       "id": 322,
       "result": "this player has a projectable plus arm and a strong, quick transfer, giving them a chance to be an average shortstop.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -2173,7 +2173,7 @@
       "id": 323,
       "result": "this player has a projectable plus arm and a lightning-quick transfer, giving them a chance to be an average everyday shortstop.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -2209,7 +2209,7 @@
       "id": 327,
       "result": "this player has a projectable plus arm, range and a strong, accurate transfer, but they're also still learning the finer aspects of playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -2326,8 +2326,8 @@
       "id": 349,
       "result": "this player has a rare combination of power and speed, but they're also earning an injury-prone label and their time horizon to the big leagues has shifted dramatically.",
       "grade_hit": 45,
-      "grade_power": 45,
-      "grade_run": 45,
+      "grade_power": 55,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 45
     },
@@ -2335,8 +2335,8 @@
       "id": 350,
       "result": "this player has a rare combination of power and speed for their size, but they're still learning to tap into it in game situations.",
       "grade_hit": 45,
-      "grade_power": 45,
-      "grade_run": 45,
+      "grade_power": 55,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 45
     },
@@ -2344,8 +2344,8 @@
       "id": 351,
       "result": "this player has a rare combination of power and speed for their size, and they project to be a solid defensive center fielder.",
       "grade_hit": 45,
-      "grade_power": 45,
-      "grade_run": 45,
+      "grade_power": 55,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 55
     },
@@ -2353,7 +2353,7 @@
       "id": 352,
       "result": "this player has a rare combination of power and speed, and they project to be an above-average runner.",
       "grade_hit": 45,
-      "grade_power": 45,
+      "grade_power": 55,
       "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 45
@@ -2362,7 +2362,7 @@
       "id": 353,
       "result": "this player has a rare combination of power and speed, and they're an above-average runner with a strong arm.",
       "grade_hit": 45,
-      "grade_power": 45,
+      "grade_power": 55,
       "grade_run": 55,
       "grade_throw": 60,
       "grade_field": 45
@@ -2443,7 +2443,7 @@
       "id": 363,
       "result": "this player has a strong arm that should allow them to play center field, but they're also earning an injury-prone label and their time horizon to the big leagues has shifted dramatically.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -2461,7 +2461,7 @@
       "id": 365,
       "result": "this player has a strong arm that should allow them to stay at shortstop, but they're still learning the finer aspects of playing the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -2488,7 +2488,7 @@
       "id": 369,
       "result": "this player has a strong base of skills that should allow them to be a solid defensive shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -2515,7 +2515,7 @@
       "id": 372,
       "result": "this player has a strong base of skills that give them a chance to be an average big league everyday shortstop.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -2542,7 +2542,7 @@
       "id": 378,
       "result": "this player has a strong chance to develop into an average big league shortstop, though they're not quite there yet.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -2560,7 +2560,7 @@
       "id": 380,
       "result": "this player has a strong chance to develop into an average big league everyday shortstop, though they're still learning the finer aspects of playing the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -2587,7 +2587,7 @@
       "id": 386,
       "result": "this player has a strong shot to stay at shortstop, where their range and hands are above average.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -2713,8 +2713,8 @@
       "id": 400,
       "result": "this player has a very interesting combination of power and speed, but they're also earning an injury-prone label and their time horizon to the big leagues has shifted dramatically.",
       "grade_hit": 45,
-      "grade_power": 50,
-      "grade_run": 45,
+      "grade_power": 55,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 45
     },
@@ -2731,8 +2731,8 @@
       "id": 402,
       "result": "this player has a very interesting power-speed combination that could make them a valuable bench option.",
       "grade_hit": 45,
-      "grade_power": 50,
-      "grade_run": 45,
+      "grade_power": 55,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 45
     },
@@ -2740,8 +2740,8 @@
       "id": 403,
       "result": "this player has a very interesting power-speed combination and a great feel to hit, so they should be able to make contact.",
       "grade_hit": 50,
-      "grade_power": 50,
-      "grade_run": 45,
+      "grade_power": 55,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 45
     },
@@ -2749,8 +2749,8 @@
       "id": 404,
       "result": "this player has a very interesting power-speed combination, but they're still learning to tap into it in game situations.",
       "grade_hit": 45,
-      "grade_power": 50,
-      "grade_run": 45,
+      "grade_power": 55,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 45
     },
@@ -2758,8 +2758,8 @@
       "id": 405,
       "result": "this player has a very interesting power-speed combination, but their time horizon to the big leagues has shifted dramatically.",
       "grade_hit": 45,
-      "grade_power": 50,
-      "grade_run": 45,
+      "grade_power": 55,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 45
     },
@@ -2776,7 +2776,7 @@
       "id": 407,
       "result": "this player has a very mature feel to hit and projects as a solid defensive center fielder.",
       "grade_hit": 55,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -2830,9 +2830,9 @@
       "id": 415,
       "result": "this player has a very standard right-field profile grounded in raw power and speed, but their hit tool is still a work in progress.",
       "grade_hit": 45,
-      "grade_power": 45,
-      "grade_run": 45,
-      "grade_throw": 45,
+      "grade_power": 55,
+      "grade_run": 55,
+      "grade_throw": 55,
       "grade_field": 45
     },
     {
@@ -2850,16 +2850,16 @@
       "grade_hit": 50,
       "grade_power": 60,
       "grade_run": 45,
-      "grade_throw": 45,
+      "grade_throw": 55,
       "grade_field": 45
     },
     {
       "id": 418,
       "result": "this player has a very standard right-field profile grounded in raw power and speed, but they're also earning an injury-prone label.",
       "grade_hit": 45,
-      "grade_power": 45,
-      "grade_run": 45,
-      "grade_throw": 45,
+      "grade_power": 55,
+      "grade_run": 55,
+      "grade_throw": 55,
       "grade_field": 45
     },
     {
@@ -3082,7 +3082,7 @@
       "id": 452,
       "result": "this player has above-average speed and a strong arm, giving them a chance to be a solid defensive center fielder.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 55,
       "grade_throw": 60,
       "grade_field": 55
@@ -3091,7 +3091,7 @@
       "id": 453,
       "result": "this player has above-average speed and range, but they're still learning the finer aspects of playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 55
@@ -3216,7 +3216,7 @@
     {
       "id": 472,
       "result": "this player has an amazing eye for the strike zone, and they make contact with authority.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -3226,7 +3226,7 @@
       "id": 473,
       "result": "this player has an amazing eye for the strike zone and a patient approach, and they're also a good defensive center fielder with a strong arm.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -3234,16 +3234,16 @@
     {
       "id": 474,
       "result": "this player has an amazing eye for the strike zone, and they're a plus runner with a chance to be a plus defender in center field.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 40,
       "grade_run": 60,
-      "grade_throw": 45,
+      "grade_throw": 50,
       "grade_field": 60
     },
     {
       "id": 475,
       "result": "this player has an amazing eye for the strike zone, but their timing is still a work in progress.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -3252,7 +3252,7 @@
     {
       "id": 476,
       "result": "this player has an amazing eye for the strike zone and should be able to hit for a high average.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -3307,7 +3307,7 @@
       "id": 482,
       "result": "this player has an average arm, but their hands are quick enough to compensate for their lack of raw power.",
       "grade_hit": 45,
-      "grade_power": 45,
+      "grade_power": 35,
       "grade_run": 45,
       "grade_throw": 50,
       "grade_field": 45
@@ -3316,19 +3316,10 @@
       "id": 483,
       "result": "this player has an average arm, range, and hands, but they're still learning the finer aspects of playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 50,
       "grade_field": 55
-    },
-    {
-      "id": 485,
-      "result": "this player has an average corner-only profile with plus raw power and a patient approach, but they also have a lot of swing-and-miss in their game.",
-      "grade_hit": 50,
-      "grade_power": 60,
-      "grade_run": 45,
-      "grade_throw": 45,
-      "grade_field": 45
     },
     {
       "id": 486,
@@ -3346,7 +3337,7 @@
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
-      "grade_field": 55
+      "grade_field": 45
     },
     {
       "id": 488,
@@ -3387,7 +3378,7 @@
     {
       "id": 493,
       "result": "this player has an average or better feel for the strike zone and should be able to maintain a high batting average.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -3424,8 +3415,8 @@
       "id": 498,
       "result": "this player has an interesting combination of power and speed, but they're still learning to tap into it in game situations.",
       "grade_hit": 45,
-      "grade_power": 50,
-      "grade_run": 45,
+      "grade_power": 55,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 45
     },
@@ -3433,8 +3424,8 @@
       "id": 499,
       "result": "this player has an interesting combination of power and speed, and they have a chance to be an above-average everyday player.",
       "grade_hit": 50,
-      "grade_power": 50,
-      "grade_run": 45,
+      "grade_power": 55,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 50
     },
@@ -3451,8 +3442,8 @@
       "id": 502,
       "result": "this player has an interesting power-speed combination that should allow them to be an average everyday player.",
       "grade_hit": 50,
-      "grade_power": 50,
-      "grade_run": 45,
+      "grade_power": 55,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 50
     },
@@ -3460,8 +3451,8 @@
       "id": 503,
       "result": "this player has an interesting power-speed combination and is a solid defender at shortstop, but they're also earning an injury-prone label.",
       "grade_hit": 45,
-      "grade_power": 50,
-      "grade_run": 45,
+      "grade_power": 55,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 60
     },
@@ -3469,8 +3460,8 @@
       "id": 504,
       "result": "this player has an interesting power-speed combination and a high ceiling if they can make contact.",
       "grade_hit": 50,
-      "grade_power": 50,
-      "grade_run": 45,
+      "grade_power": 55,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 45
     },
@@ -3496,7 +3487,7 @@
       "id": 508,
       "result": "this player has an intriguing all-around skillset, but they're still learning the finer aspects of playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -3506,7 +3497,7 @@
       "result": "this player has an intriguing power-speed combination and is a solid defender at shortstop.",
       "grade_hit": 45,
       "grade_power": 55,
-      "grade_run": 45,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 60
     },
@@ -3515,7 +3506,7 @@
       "result": "this player has an intriguing power-speed combination and a strong arm, but their time horizon to the big leagues has shifted dramatically.",
       "grade_hit": 45,
       "grade_power": 55,
-      "grade_run": 45,
+      "grade_run": 55,
       "grade_throw": 60,
       "grade_field": 45
     },
@@ -3524,7 +3515,7 @@
       "result": "this player has an intriguing power-speed combination and projects as a solid everyday player, but their time horizon to the big leagues has shifted dramatically.",
       "grade_hit": 50,
       "grade_power": 55,
-      "grade_run": 45,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 45
     },
@@ -3561,16 +3552,16 @@
       "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
-      "grade_throw": 45,
+      "grade_throw": 55,
       "grade_field": 45
     },
     {
       "id": 521,
       "result": "this player has an unusual profile: they're a plus runner and a plus defender in center field, but they don\u2019t have a lot of power.",
-      "grade_hit": 45,
-      "grade_power": 45,
+      "grade_hit": 50,
+      "grade_power": 50,
       "grade_run": 60,
-      "grade_throw": 45,
+      "grade_throw": 50,
       "grade_field": 60
     },
     {
@@ -3604,7 +3595,7 @@
       "id": 525,
       "result": "this player has been a below-average runner and a fringe-average defender in center field, but they have a chance to be an average defender.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 50,
       "grade_throw": 45,
       "grade_field": 55
@@ -3613,7 +3604,7 @@
       "id": 526,
       "result": "this player has been a below-average defensive shortstop throughout their career, but they're still learning the finer aspects of playing the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -3640,7 +3631,7 @@
       "id": 529,
       "result": "this player has been a familiar type of prospect for years: a toolsy, athletic center fielder with a chance to be an average everyday player.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -3649,7 +3640,7 @@
       "id": 530,
       "result": "this player has been a fringe-average defender at shortstop, but they're earning a strong defensive reputation at second base.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -3703,7 +3694,7 @@
       "id": 536,
       "result": "this player has been a very good defensive shortstop throughout their career and projects to continue to be there.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -3712,7 +3703,7 @@
       "id": 537,
       "result": "this player has been an excellent defensive shortstop with a strong arm and range, but they're also earning an injury-prone label.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -3721,7 +3712,7 @@
       "id": 538,
       "result": "this player has been an excellent defensive shortstop throughout their career and their bat has improved to the point where they're no longer a liability.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -3778,7 +3769,7 @@
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
-      "grade_field": 45
+      "grade_field": 40
     },
     {
       "id": 545,
@@ -3802,7 +3793,7 @@
       "id": 547,
       "result": "this player has been more than useful at shortstop, where they're shown good hands and a strong arm.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -3811,7 +3802,7 @@
       "id": 548,
       "result": "this player has been more than useful at shortstop, where they have a chance to be an average defender.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -3820,7 +3811,7 @@
       "id": 550,
       "result": "this player has been more than useful at shortstop in the past, but their range and hands are below average, and they don\u2019t have a cannon.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -3973,7 +3964,7 @@
       "id": 572,
       "result": "this player has below-average speed, but they compensate with a strong arm and good hands, giving them a chance to stick at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 50,
       "grade_throw": 60,
       "grade_field": 60
@@ -3982,7 +3973,7 @@
       "id": 573,
       "result": "this player has below-average speed and range in center field, but they're still learning the finer aspects of playing the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 50,
       "grade_throw": 45,
       "grade_field": 55
@@ -4055,7 +4046,7 @@
       "result": "this player has big raw power for their size, and they can really run, so there\u2019s some raw tools here.",
       "grade_hit": 45,
       "grade_power": 60,
-      "grade_run": 55,
+      "grade_run": 65,
       "grade_throw": 45,
       "grade_field": 45
     },
@@ -4171,7 +4162,7 @@
       "id": 603,
       "result": "this player has elite defensive chops and a strong arm, but they're still learning the finer aspects of playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 70
@@ -4188,7 +4179,7 @@
     {
       "id": 605,
       "result": "this player has elite hand-eye coordination and a short stroke, giving them a chance to be a plus hitter.",
-      "grade_hit": 45,
+      "grade_hit": 60,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -4197,7 +4188,7 @@
     {
       "id": 606,
       "result": "this player has elite hand-eye coordination and a good eye for the strike zone, and they should produce strong on-base rates throughout their career.",
-      "grade_hit": 55,
+      "grade_hit": 60,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -4206,7 +4197,7 @@
     {
       "id": 607,
       "result": "this player has elite hand-eye coordination and a patient approach, giving them a chance to be a plus hitter.",
-      "grade_hit": 50,
+      "grade_hit": 60,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -4215,7 +4206,7 @@
     {
       "id": 609,
       "result": "this player has elite hand-eye coordination and a lightning-quick bat that should allow them to make a lot of contact.",
-      "grade_hit": 45,
+      "grade_hit": 60,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -4279,7 +4270,7 @@
       "id": 616,
       "result": "this player has got a bit of stiffness in their swing that limits their power potential, but they make up for it with a patient approach and exceptional hand-eye coordination.",
       "grade_hit": 50,
-      "grade_power": 55,
+      "grade_power": 35,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 45
@@ -4296,7 +4287,7 @@
     {
       "id": 618,
       "result": "this player has got above-average bat speed and a quick hand that should allow them to produce strong batting average and on-base rates.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -4332,7 +4323,7 @@
     {
       "id": 623,
       "result": "this player has got below-average bat control and is still learning to tap into their raw power, so there are some questions about their ability to make contact.",
-      "grade_hit": 45,
+      "grade_hit": 40,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -4359,7 +4350,7 @@
     {
       "id": 628,
       "result": "this player has got below-average bat control and they're always been a ground-ball hitter, but they have a patient approach and a good eye.",
-      "grade_hit": 50,
+      "grade_hit": 40,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -4390,7 +4381,7 @@
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
-      "grade_field": 45
+      "grade_field": 50
     },
     {
       "id": 633,
@@ -4399,7 +4390,7 @@
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
-      "grade_field": 45
+      "grade_field": 50
     },
     {
       "id": 634,
@@ -4408,13 +4399,13 @@
       "grade_power": 40,
       "grade_run": 60,
       "grade_throw": 60,
-      "grade_field": 45
+      "grade_field": 50
     },
     {
       "id": 635,
       "result": "this player has great defensive chops and a strong arm, but their lack of speed will likely keep them from playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 40,
       "grade_throw": 60,
       "grade_field": 55
@@ -4426,13 +4417,13 @@
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
-      "grade_field": 45
+      "grade_field": 50
     },
     {
       "id": 637,
       "result": "this player has great defensive chops, range, and a strong arm, and they should be an above-average defender at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -4450,7 +4441,7 @@
       "id": 639,
       "result": "this player has great defensive chops and a strong arm, but they're still learning the finer aspects of playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -4459,7 +4450,7 @@
       "id": 640,
       "result": "this player has great makeup and is a solid defensive shortstop with a strong arm, but they're also earning an injury-prone label.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -4540,7 +4531,7 @@
       "id": 653,
       "result": "this player has more of a contact approach than most and projects as a solid defender at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 60
@@ -4614,13 +4605,13 @@
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 45,
-      "grade_throw": 45,
+      "grade_throw": 55,
       "grade_field": 45
     },
     {
       "id": 663,
       "result": "this player has more thunder from one side of the plate than the other and they use a short stroke that produces surprising power.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -4666,7 +4657,7 @@
       "id": 669,
       "result": "this player has one plus tool, but it\u2019s their hit tool, which should allow them to stick at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -4711,7 +4702,7 @@
       "id": 677,
       "result": "this player has only played in seven games this year, so it\u2019s too early to get a good read on their ability to stick at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -4728,20 +4719,20 @@
     {
       "id": 679,
       "result": "this player has plus arm strength and is a plus runner, but they're also earning an injury-prone label.",
-      "grade_hit": 45,
-      "grade_power": 45,
+      "grade_hit": 50,
+      "grade_power": 50,
       "grade_run": 60,
       "grade_throw": 60,
-      "grade_field": 45
+      "grade_field": 50
     },
     {
       "id": 682,
       "result": "this player has plus arm strength and is a plus runner, but their range is still below average.",
-      "grade_hit": 45,
-      "grade_power": 45,
+      "grade_hit": 50,
+      "grade_power": 50,
       "grade_run": 60,
       "grade_throw": 60,
-      "grade_field": 45
+      "grade_field": 50
     },
     {
       "id": 683,
@@ -4803,17 +4794,17 @@
       "grade_hit": 55,
       "grade_power": 40,
       "grade_run": 60,
-      "grade_throw": 45,
-      "grade_field": 45
+      "grade_throw": 50,
+      "grade_field": 50
     },
     {
       "id": 692,
       "result": "this player has plus bat speed and is a plus runner, but they're still learning to tap into their raw power.",
       "grade_hit": 55,
-      "grade_power": 45,
+      "grade_power": 50,
       "grade_run": 60,
-      "grade_throw": 45,
-      "grade_field": 45
+      "grade_throw": 50,
+      "grade_field": 50
     },
     {
       "id": 694,
@@ -4821,8 +4812,8 @@
       "grade_hit": 55,
       "grade_power": 40,
       "grade_run": 60,
-      "grade_throw": 45,
-      "grade_field": 45
+      "grade_throw": 50,
+      "grade_field": 50
     },
     {
       "id": 696,
@@ -4918,7 +4909,7 @@
       "id": 707,
       "result": "this player has plus defensive chops and a strong arm, but their range is below average and they're still learning the finer aspects of playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 40
@@ -4936,7 +4927,7 @@
       "id": 709,
       "result": "this player has plus defensive chops and a strong arm, but they're still learning the finer aspects of playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -4948,7 +4939,7 @@
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
-      "grade_field": 45
+      "grade_field": 50
     },
     {
       "id": 713,
@@ -4963,7 +4954,7 @@
       "id": 714,
       "result": "this player has plus defensive hands and a strong arm, and they should be able to stay at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -4971,29 +4962,29 @@
     {
       "id": 716,
       "result": "this player has plus power and is a plus runner, but they're also earning an injury-prone label.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 60,
       "grade_run": 60,
-      "grade_throw": 45,
-      "grade_field": 45
+      "grade_throw": 50,
+      "grade_field": 50
     },
     {
       "id": 717,
       "result": "this player has plus power and is a plus runner, but they're also earning an injury-prone label and their time horizon to the big leagues has shifted dramatically.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 60,
       "grade_run": 60,
-      "grade_throw": 45,
-      "grade_field": 45
+      "grade_throw": 50,
+      "grade_field": 50
     },
     {
       "id": 718,
       "result": "this player has plus power and is a plus runner, but their in-game power is mostly of the ground-ball variety.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 60,
       "grade_run": 60,
-      "grade_throw": 45,
-      "grade_field": 45
+      "grade_throw": 50,
+      "grade_field": 50
     },
     {
       "id": 719,
@@ -5043,11 +5034,11 @@
     {
       "id": 724,
       "result": "this player has plus raw power and continues to develop into a plus runner, but they're also earning an injury-prone label.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 60,
       "grade_run": 60,
-      "grade_throw": 45,
-      "grade_field": 45
+      "grade_throw": 50,
+      "grade_field": 50
     },
     {
       "id": 725,
@@ -5109,7 +5100,7 @@
       "grade_hit": 55,
       "grade_power": 60,
       "grade_run": 60,
-      "grade_throw": 45,
+      "grade_throw": 50,
       "grade_field": 55
     },
     {
@@ -5124,11 +5115,11 @@
     {
       "id": 734,
       "result": "this player has plus raw power and is a plus runner, but they're also earning an injury-prone label and their time horizon to the big leagues has shifted dramatically.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 60,
       "grade_run": 60,
-      "grade_throw": 45,
-      "grade_field": 45
+      "grade_throw": 50,
+      "grade_field": 50
     },
     {
       "id": 735,
@@ -5214,7 +5205,7 @@
     {
       "id": 744,
       "result": "this player has plus raw power and puts the ball in play, so they should be able to hit for a high average.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 60,
       "grade_run": 45,
       "grade_throw": 45,
@@ -5422,7 +5413,7 @@
       "id": 775,
       "result": "this player has solid defensive instincts, a strong arm, and good hands, so they should be able to stick at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -5431,7 +5422,7 @@
       "id": 776,
       "result": "this player has solid defensive instincts, range, and hands, but they're still learning the finer aspects of playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 60
@@ -5449,7 +5440,7 @@
       "id": 778,
       "result": "this player has solid defensive instincts, a strong arm, and good hands, so they should be an average shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -5467,7 +5458,7 @@
       "id": 782,
       "result": "this player has solid defensive instincts and a strong arm, and they should be able to stick at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -5476,7 +5467,7 @@
       "id": 785,
       "result": "this player has solid defensive instincts and a strong arm, and they're a viable option at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -5530,7 +5521,7 @@
       "id": 796,
       "result": "this player has the ability to play three outfield positions, though they're still learning the finer aspects of playing center field.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -5584,7 +5575,7 @@
       "id": 803,
       "result": "this player has the arm for shortstop but they're still learning the finer aspects of the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 55,
       "grade_field": 55
@@ -5593,7 +5584,7 @@
       "id": 804,
       "result": "this player has the arm for shortstop but their hands are not quick enough to make up for it.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 55,
       "grade_field": 55
@@ -5602,7 +5593,7 @@
       "id": 805,
       "result": "this player has the arm for shortstop, but their hands and feet are not quick enough for the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 55,
       "grade_field": 55
@@ -5614,13 +5605,13 @@
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
-      "grade_field": 45
+      "grade_field": 50
     },
     {
       "id": 808,
       "result": "this player has the defensive chops to play shortstop, though they're still learning the finer aspects of playing the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -5629,7 +5620,7 @@
       "id": 809,
       "result": "this player has the defensive chops to play center field, but their range is fringey and their hands are below average.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -5656,7 +5647,7 @@
       "id": 813,
       "result": "this player has the defensive chops to play shortstop, but they're still learning the finer aspects of playing the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -5763,7 +5754,7 @@
     {
       "id": 827,
       "result": "this player has the timing and all-around feel to hit, and they project to be a fringe-average defender at third base.",
-      "grade_hit": 45,
+      "grade_hit": 55,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -5772,7 +5763,7 @@
     {
       "id": 828,
       "result": "this player has the timing and all-around feel to hit, but they don\u2019t always tap into it in game situations.",
-      "grade_hit": 45,
+      "grade_hit": 55,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -5781,7 +5772,7 @@
     {
       "id": 829,
       "result": "this player has the timing and all-around feel to hit, but they're still learning to tap into their raw power.",
-      "grade_hit": 45,
+      "grade_hit": 55,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -5790,7 +5781,7 @@
     {
       "id": 830,
       "result": "this player has the timing and all-around feel to hit, but they're also earning an injury-prone label.",
-      "grade_hit": 45,
+      "grade_hit": 55,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -5799,7 +5790,7 @@
     {
       "id": 831,
       "result": "this player has the timing and all-around feel to hit, and they should be a solid everyday player.",
-      "grade_hit": 50,
+      "grade_hit": 55,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -5907,7 +5898,7 @@
     {
       "id": 850,
       "result": "this player has very concerning timing and, at times, effort in batting, which leads to poor contact and high strikeout rates.",
-      "grade_hit": 40,
+      "grade_hit": 35,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -5916,7 +5907,7 @@
     {
       "id": 851,
       "result": "this player has very concerning timing and, as a result, is likely to be a low-average hitter.",
-      "grade_hit": 50,
+      "grade_hit": 35,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -6007,7 +5998,7 @@
       "id": 864,
       "result": "this player has very promising and exciting tools that give them a chance to be an above-average defender at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 60
@@ -6088,7 +6079,7 @@
       "id": 876,
       "result": "this player has very promising defensive tools and a chance to be an average everyday shortstop.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -6105,10 +6096,10 @@
     {
       "id": 878,
       "result": "this player has very promising defensive skills, and they're also a plus runner and plus defender in center field.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 40,
       "grade_run": 60,
-      "grade_throw": 45,
+      "grade_throw": 50,
       "grade_field": 60
     },
     {
@@ -6124,7 +6115,7 @@
       "id": 880,
       "result": "this player has very promising defensive skills and a strong arm, but they're still learning the finer aspects of playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -6133,7 +6124,7 @@
       "id": 881,
       "result": "this player has very promising defensive tools, but they're still learning the finer aspects of playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -6151,7 +6142,7 @@
       "id": 883,
       "result": "this player has very promising outfield defensive tools, and they have a chance to be an above-average defender in center field.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 60
@@ -6216,7 +6207,7 @@
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 45,
-      "grade_throw": 45,
+      "grade_throw": 55,
       "grade_field": 45
     },
     {
@@ -6225,8 +6216,8 @@
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 50,
-      "grade_throw": 50,
-      "grade_field": 45
+      "grade_throw": 40,
+      "grade_field": 40
     },
     {
       "id": 895,
@@ -6241,16 +6232,16 @@
       "id": 896,
       "result": "this player is a below-average runner with a below-average arm, so they have to hit to stay at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 50,
-      "grade_throw": 50,
+      "grade_throw": 40,
       "grade_field": 55
     },
     {
       "id": 897,
       "result": "this player is a below-average runner and their instincts in center field are below-average as well.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 50,
       "grade_throw": 45,
       "grade_field": 55
@@ -6259,7 +6250,7 @@
       "id": 898,
       "result": "this player is a below-average runner and defender, but they have a strong arm and a good glove in center field.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 50,
       "grade_throw": 60,
       "grade_field": 55
@@ -6279,14 +6270,14 @@
       "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
-      "grade_throw": 45,
+      "grade_throw": 55,
       "grade_field": 50
     },
     {
       "id": 904,
       "result": "this player is a big-league-ready, above-average defensive shortstop with a strong arm and good hands.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -6313,7 +6304,7 @@
       "id": 908,
       "result": "this player is a big, strong athlete with a strong arm and range, and they're a solid defensive shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -6387,7 +6378,7 @@
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 45,
-      "grade_throw": 50,
+      "grade_throw": 40,
       "grade_field": 45
     },
     {
@@ -6403,7 +6394,7 @@
       "id": 927,
       "result": "this player is a good defensive center fielder with a strong arm, a good first step, and a lightning-quick transfer.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 55,
       "grade_throw": 60,
       "grade_field": 55
@@ -6412,7 +6403,7 @@
       "id": 928,
       "result": "this player is a good defensive center fielder with a strong arm and great hands, but they're still learning the finer aspects of playing the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -6430,7 +6421,7 @@
       "id": 930,
       "result": "this player is a good defensive center fielder with a strong arm and good hands, and they should be able to stick at the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -6456,10 +6447,10 @@
     {
       "id": 941,
       "result": "this player is a high-profile high school prospect who is a plus runner and has a chance to be a plus defender in center field.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 40,
       "grade_run": 60,
-      "grade_throw": 45,
+      "grade_throw": 50,
       "grade_field": 60
     },
     {
@@ -6493,7 +6484,7 @@
       "id": 945,
       "result": "this player is a likely utility or very good bench option, with a chance to be an above-average defender at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 60
@@ -6582,7 +6573,7 @@
     {
       "id": 959,
       "result": "this player is a plus runner and viable defensive center fielder with plus speed, range, and a strong arm.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 40,
       "grade_run": 60,
       "grade_throw": 60,
@@ -6609,7 +6600,7 @@
     {
       "id": 965,
       "result": "this player is a plus runner, viable defensive center fielder, and plus defender with a strong arm.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 40,
       "grade_run": 60,
       "grade_throw": 60,
@@ -6753,7 +6744,7 @@
     {
       "id": 986,
       "result": "this player is a projectable switch-hitter with a patient approach and good bat control, giving them a chance to be a plus hitter.",
-      "grade_hit": 55,
+      "grade_hit": 60,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -6916,7 +6907,7 @@
       "id": 1006,
       "result": "this player is a solid defensive center fielder with a strong arm, range, and a quick transfer.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -6952,7 +6943,7 @@
       "id": 1012,
       "result": "this player is a solid fielder with a strong arm, but they're still learning the finer aspects of playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -6970,7 +6961,7 @@
       "id": 1015,
       "result": "this player is a solid fielder with a strong arm and good hands, giving them a chance to be an average everyday shortstop.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -7006,7 +6997,7 @@
       "id": 1020,
       "result": "this player is a solid overall athlete with a strong arm and range, and they have a chance to be an average everyday shortstop.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -7089,7 +7080,7 @@
       "grade_hit": 50,
       "grade_power": 60,
       "grade_run": 45,
-      "grade_throw": 45,
+      "grade_throw": 55,
       "grade_field": 45
     },
     {
@@ -7150,7 +7141,7 @@
       "id": 1036,
       "result": "this player is a true five-tool player with a chance to be an above-average defender at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 60
@@ -7159,7 +7150,7 @@
       "id": 1037,
       "result": "this player is a unique athlete with a plus arm and a lightning-quick transfer, giving them a chance to be an average everyday shortstop.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -7204,7 +7195,7 @@
       "id": 1042,
       "result": "this player is a very good defensive center fielder with a strong arm and a lightning-quick transfer.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -7213,7 +7204,7 @@
       "id": 1044,
       "result": "this player is a very good defensive center fielder with a strong arm and great hands, and they have a chance to be an above-average defender.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -7222,7 +7213,7 @@
       "id": 1045,
       "result": "this player is a very good defensive shortstop with a strong arm, good hands, a lightning-quick transfer, and a quick release.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -7231,7 +7222,7 @@
       "id": 1048,
       "result": "this player is a viable defensive center fielder with a strong arm and good hands, and they have a chance to be an above-average defender.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -7240,7 +7231,7 @@
       "id": 1049,
       "result": "this player is a viable defensive shortstop with a strong arm, good hands, and a lightning-quick transfer.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -7249,7 +7240,7 @@
       "id": 1050,
       "result": "this player is a viable defensive shortstop with a plus arm and a strong, accurate, efficient transfer, and they have a good idea of the strike zone.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -7258,7 +7249,7 @@
       "id": 1052,
       "result": "this player is a viable defensive shortstop with a strong arm and range, and they're an above-average runner.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 55,
       "grade_throw": 60,
       "grade_field": 55
@@ -7276,7 +7267,7 @@
       "id": 1054,
       "result": "this player is a viable defensive shortstop with a strong arm, range, and a lightning-quick transfer.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -7339,7 +7330,7 @@
       "id": 1061,
       "result": "this player is an average runner with an average arm, so they're not likely to be a defensive standout at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 50,
       "grade_throw": 50,
       "grade_field": 55
@@ -7348,7 +7339,7 @@
       "id": 1063,
       "result": "this player is an average runner with an average arm, so they profiles as a solid defensive center fielder.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 50,
       "grade_throw": 50,
       "grade_field": 55
@@ -7365,7 +7356,7 @@
     {
       "id": 1066,
       "result": "this player is an intriguing plus runner with a plus arm, and they have a chance to be a solid defensive center fielder.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 40,
       "grade_run": 60,
       "grade_throw": 60,
@@ -7374,10 +7365,10 @@
     {
       "id": 1067,
       "result": "this player is an intriguing plus runner and viable defensive center fielder with plus raw power.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 60,
       "grade_run": 60,
-      "grade_throw": 45,
+      "grade_throw": 50,
       "grade_field": 55
     },
     {
@@ -7428,16 +7419,16 @@
     {
       "id": 1073,
       "result": "this player is likely to have career-long issues with strikeouts, but their raw power and speed give them a chance to be an average everyday player.",
-      "grade_hit": 50,
-      "grade_power": 45,
-      "grade_run": 45,
+      "grade_hit": 40,
+      "grade_power": 55,
+      "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 50
     },
     {
       "id": 1074,
       "result": "this player is likely to have career-long issues with strikeouts, but they have a chance to be an average big league everyday player.",
-      "grade_hit": 50,
+      "grade_hit": 40,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -7582,7 +7573,7 @@
       "id": 1093,
       "result": "this player is probably one of the more athletic players in the minors and they have a chance to be an average everyday shortstop.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -7597,22 +7588,13 @@
       "grade_field": 45
     },
     {
-      "id": 1095,
-      "result": "this player is probably the best defensive center fielder in the minors and has a chance to be an average defender at the position.",
-      "grade_hit": 50,
-      "grade_power": 40,
-      "grade_run": 45,
-      "grade_throw": 45,
-      "grade_field": 55
-    },
-    {
       "id": 1096,
       "result": "this player is probably the best defensive center fielder in the minors, with a strong arm and a quick transfer.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
-      "grade_field": 55
+      "grade_field": 70
     },
     {
       "id": 1097,
@@ -7621,7 +7603,7 @@
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
-      "grade_field": 55
+      "grade_field": 70
     },
     {
       "id": 1098,
@@ -7630,7 +7612,7 @@
       "grade_power": 40,
       "grade_run": 60,
       "grade_throw": 60,
-      "grade_field": 55
+      "grade_field": 70
     },
     {
       "id": 1099,
@@ -7639,12 +7621,12 @@
       "grade_power": 40,
       "grade_run": 45,
       "grade_throw": 60,
-      "grade_field": 60
+      "grade_field": 70
     },
     {
       "id": 1100,
       "result": "this player is still quite raw with the bat, but they have a chance to be an average everyday player if they can make more contact.",
-      "grade_hit": 50,
+      "grade_hit": 40,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -7653,7 +7635,7 @@
     {
       "id": 1101,
       "result": "this player is still quite raw with the bat, but they have a chance to be an average everyday player.",
-      "grade_hit": 50,
+      "grade_hit": 40,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -7662,7 +7644,7 @@
     {
       "id": 1102,
       "result": "this player is still quite raw with the bat, but they have a patient approach and a good eye, so there\u2019s untapped potential there.",
-      "grade_hit": 50,
+      "grade_hit": 40,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -7699,7 +7681,7 @@
       "id": 1106,
       "result": "this player is still seeing a majority of their time at shortstop, but they have a chance to be an above-average second baseman.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -7752,7 +7734,7 @@
     {
       "id": 1114,
       "result": "this player is very likely to have career-long issues with strikeouts, but they have a chance to be a solid everyday player.",
-      "grade_hit": 50,
+      "grade_hit": 40,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -7761,7 +7743,7 @@
     {
       "id": 1115,
       "result": "this player is very likely to have career-long issues with strikeouts, and their swing-and-miss tendencies are a concern.",
-      "grade_hit": 45,
+      "grade_hit": 40,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
@@ -7798,7 +7780,7 @@
       "id": 1119,
       "result": "this player might have the opportunity to play a lot of center field, but they're not a natural there and they don\u2019t have a huge ceiling.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -7888,10 +7870,10 @@
       "id": 1132,
       "result": "this player projects to develop into an average or better defender at shortstop, and they have a chance to be an above-average defender at second base.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
-      "grade_field": 60
+      "grade_field": 55
     },
     {
       "id": 1133,
@@ -7959,7 +7941,7 @@
     {
       "id": 1140,
       "result": "this player shows they can hit for average and has a strong arm, but they're also earning an injury-prone label and their time horizon to the big leagues has shifted dramatically.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
@@ -8193,10 +8175,10 @@
     {
       "id": 1173,
       "result": "this player still doesn\u2019t look like a prototypical center fielder, but they have plus speed and range, and they're a plus runner.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 40,
       "grade_run": 60,
-      "grade_throw": 45,
+      "grade_throw": 50,
       "grade_field": 55
     },
     {
@@ -8230,7 +8212,7 @@
       "id": 1177,
       "result": "this player still profiles as a glove-first shortstop with a chance to be an above-average defender at the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 60
@@ -8239,7 +8221,7 @@
       "id": 1178,
       "result": "this player still profiles as a glove-first shortstop with a chance to be an average everyday player, but their time horizon to the big leagues has shifted dramatically.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -8284,7 +8266,7 @@
       "id": 1183,
       "result": "this player still projects as a protot ypical shortstop with a strong arm and range, and they have a chance to be an average defender at the position.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8292,11 +8274,11 @@
     {
       "id": 1184,
       "result": "this player struggled against elite prep competition in high school, but their plus raw power and plus arm strength are plus tools.",
-      "grade_hit": 50,
+      "grade_hit": 45,
       "grade_power": 60,
-      "grade_run": 50,
+      "grade_run": 45,
       "grade_throw": 60,
-      "grade_field": 50
+      "grade_field": 45
     },
     {
       "id": 1185,
@@ -8311,7 +8293,7 @@
       "id": 1186,
       "result": "this player struggled against elite prep competition, but they have a chance to be a solid defensive shortstop with a strong arm and exceptional hands.",
       "grade_hit": 65,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8400,10 +8382,10 @@
     {
       "id": 1198,
       "result": "this player, who played great defense everywhere they played in college, is a plus runner and has a chance to be a plus defender at shortstop.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 40,
       "grade_run": 60,
-      "grade_throw": 45,
+      "grade_throw": 50,
       "grade_field": 60
     },
     {
@@ -8500,7 +8482,7 @@
       "id": 1211,
       "result": "this player\u2019s a fine defensive shortstop with a strong arm and good hands, but they're still learning the finer aspects of playing the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -8509,7 +8491,7 @@
       "id": 1212,
       "result": "this player\u2019s a fine defensive center fielder with a strong arm, but they're still learning the finer aspects of playing the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8518,7 +8500,7 @@
       "id": 1213,
       "result": "this player\u2019s a fine defensive center fielder with a strong arm and a quick transfer, but they're also earning an injury-prone label.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8527,7 +8509,7 @@
       "id": 1214,
       "result": "this player\u2019s a fine defensive center fielder with a strong arm, but they're also earning an injury-prone label.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8536,7 +8518,7 @@
       "id": 1215,
       "result": "this player\u2019s a fine defensive shortstop with a strong arm, and they have a chance to be an above-average defender at second base.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -8545,7 +8527,7 @@
       "id": 1216,
       "result": "this player\u2019s a good defensive center fielder with a strong arm, but they're also earning an injury-prone label and their time horizon to the big leagues has shifted dramatically.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8554,7 +8536,7 @@
       "id": 1217,
       "result": "this player\u2019s a good defensive shortstop with a strong arm and range, and they have a chance to be an average everyday player.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8563,7 +8545,7 @@
       "id": 1218,
       "result": "this player\u2019s a good defensive center fielder with a strong arm and excellent hands, and they have a chance to be an above-average defender.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -8572,7 +8554,7 @@
       "id": 1219,
       "result": "this player\u2019s a good defensive shortstop with a strong arm and exceptional hands, but they're still learning the finer aspects of playing the position.",
       "grade_hit": 65,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8581,7 +8563,7 @@
       "id": 1220,
       "result": "this player\u2019s a good defensive shortstop with a strong arm and range, but they're also earning an injury-prone label.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8589,7 +8571,7 @@
     {
       "id": 1221,
       "result": "this player\u2019s a good defensive center fielder with a strong arm, a plus runner, and plus raw power.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 60,
       "grade_run": 60,
       "grade_throw": 60,
@@ -8608,7 +8590,7 @@
       "id": 1223,
       "result": "this player\u2019s a good defensive center fielder with a strong arm, but they're also earning an injury-prone label.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8617,7 +8599,7 @@
       "id": 1224,
       "result": "this player\u2019s a good defensive shortstop with a strong arm and good hands, and they have a chance to be an average everyday player.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -8626,7 +8608,7 @@
       "id": 1225,
       "result": "this player\u2019s a good defensive shortstop with a strong arm, but they're also earning an injury-prone label and their time horizon to the big leagues has shifted dramatically.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8635,7 +8617,7 @@
       "id": 1226,
       "result": "this player\u2019s a good defensive shortstop with a strong arm, and they have a chance to be an above-average defender at second base.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -8644,7 +8626,7 @@
       "id": 1227,
       "result": "this player\u2019s a good defensive shortstop with a strong arm, but they're still learning the finer aspects of playing the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8661,7 +8643,7 @@
     {
       "id": 1230,
       "result": "this player\u2019s a plus runner and viable defensive center fielder with a strong arm and good hands, giving them a chance to be a plus defender.",
-      "grade_hit": 45,
+      "grade_hit": 50,
       "grade_power": 40,
       "grade_run": 60,
       "grade_throw": 60,
@@ -8698,7 +8680,7 @@
       "id": 1234,
       "result": "this player\u2019s a pretty classic tweener, with a strong arm and range, a good first step, and enough speed to play center field.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 55,
       "grade_throw": 60,
       "grade_field": 55
@@ -8734,7 +8716,7 @@
       "id": 1238,
       "result": "this player\u2019s a quick defensive center fielder with a good arm, range, and a strong, accurate throw.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 55,
       "grade_field": 55
@@ -8752,7 +8734,7 @@
       "id": 1240,
       "result": "this player\u2019s a quick defensive shortstop with a strong arm and range, but they're still learning the finer aspects of playing the position.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8761,7 +8743,7 @@
       "id": 1241,
       "result": "this player\u2019s a very good defensive center fielder with a strong arm and exceptional range, and they have a chance to be an above-average.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8770,7 +8752,7 @@
       "id": 1242,
       "result": "this player\u2019s a very good defensive shortstop with plus bat control, so there\u2019s a chance they're a solid utility man.",
       "grade_hit": 60,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -8779,7 +8761,7 @@
       "id": 1243,
       "result": "this player\u2019s a very good defensive center fielder with a strong arm, good hands, and a lightning-quick transfer.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -8806,7 +8788,7 @@
       "id": 1246,
       "result": "this player\u2019s a very good defensive shortstop with a strong arm, good hands, and a lightning-quick transfer.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -8824,7 +8806,7 @@
       "id": 1248,
       "result": "this player\u2019s a very good defensive shortstop with plus bat speed and a lightning-quick transfer, so they should produce strong batting averages.",
       "grade_hit": 55,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8851,7 +8833,7 @@
       "id": 1251,
       "result": "this player\u2019s an above-aver age runner and has a strong arm, so they could be a solid defensive center fielder.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8869,7 +8851,7 @@
       "id": 1253,
       "result": "this player\u2019s an above-aver age runner with a good first step and a strong arm, giving them a chance to be an average defender at shortstop.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 55,
       "grade_throw": 60,
       "grade_field": 55
@@ -8887,7 +8869,7 @@
       "id": 1255,
       "result": "this player\u2019s an above-aver age runner with a strong arm and range, and they have a chance to be a solid defensive shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8896,7 +8878,7 @@
       "id": 1256,
       "result": "this player\u2019s an above-aver age runner and defensive center fielder with a strong arm, but their time horizon to the big leagues has shifted dramatically.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -8986,7 +8968,7 @@
       "id": 1267,
       "result": "this player\u2019s an average or better runner and viable defensive center fielder with a strong arm and good hands.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -8995,7 +8977,7 @@
       "id": 1268,
       "result": "this player\u2019s an average or better runner with a strong arm and good hands, so they should be able to stick at shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -9004,7 +8986,7 @@
       "id": 1269,
       "result": "this player\u2019s an average or better runner with a good first step and enough speed to compensate for their lack of raw power.",
       "grade_hit": 45,
-      "grade_power": 45,
+      "grade_power": 35,
       "grade_run": 55,
       "grade_throw": 45,
       "grade_field": 45
@@ -9022,7 +9004,7 @@
       "id": 1272,
       "result": "this player\u2019s an average runner with a strong arm, but they're still learning the finer aspects of playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 50,
       "grade_throw": 60,
       "grade_field": 55
@@ -9040,7 +9022,7 @@
       "id": 1274,
       "result": "this player\u2019s an average runner with a strong arm and a good first step, and they have a chance to be a solid defensive shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 55,
       "grade_throw": 60,
       "grade_field": 55
@@ -9058,7 +9040,7 @@
       "id": 1278,
       "result": "this player\u2019s an average runner with a strong arm, and they have a chance to be an average everyday shortstop.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 50,
       "grade_throw": 60,
       "grade_field": 55
@@ -9103,7 +9085,7 @@
       "id": 1283,
       "result": "this player\u2019s an intriguing defensive center fielder with a strong arm and good hands, but they're also earning an injury-prone.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -9112,7 +9094,7 @@
       "id": 1284,
       "result": "this player\u2019s an intriguing defensive shortstop with a strong arm and range, and they have a chance to be an above-average defender.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 60
@@ -9121,7 +9103,7 @@
       "id": 1285,
       "result": "this player\u2019s arm and range are below average, and they have a chance to be an average defender at shortstop.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -9130,7 +9112,7 @@
       "id": 1286,
       "result": "this player\u2019s arm and range are average, and they have a chance to be a solid defensive shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -9139,7 +9121,7 @@
       "id": 1287,
       "result": "this player\u2019s arm is a big-league asset in the outfield and their hands are quick enough to compensate for a lack of raw power.",
       "grade_hit": 45,
-      "grade_power": 45,
+      "grade_power": 35,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 45
@@ -9166,7 +9148,7 @@
       "id": 1292,
       "result": "this player\u2019s arm, range, and hands are all above-average, and they have a chance to be an average everyday shortstop.",
       "grade_hit": 50,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -9256,7 +9238,7 @@
       "id": 1310,
       "result": "this player\u2019s best position thanks to their strong arm and range, but they're still learning the finer aspects of playing shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 60,
       "grade_field": 55
@@ -9283,7 +9265,7 @@
       "id": 1316,
       "result": "this player\u2019s carrying tool is their speed, which is plus-plus and they have a chance to be an above-average defender in center field.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 60
@@ -9292,7 +9274,7 @@
       "id": 1317,
       "result": "this player\u2019s defense has improved dramatically, and they're a viable shortstop.",
       "grade_hit": 45,
-      "grade_power": 40,
+      "grade_power": 45,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 55
@@ -9409,7 +9391,7 @@
       "id": 1330,
       "result": "this player\u2019s elite tool is their speed, which allows them to compensate for their lack of raw power.",
       "grade_hit": 45,
-      "grade_power": 45,
+      "grade_power": 35,
       "grade_run": 45,
       "grade_throw": 45,
       "grade_field": 45
