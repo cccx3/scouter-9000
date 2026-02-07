@@ -1,4 +1,4 @@
-import { useLoaderData, useNavigate } from 'react-router-dom';
+import { useLoaderData, useNavigate, useParams } from 'react-router-dom';
 import { getWriteup } from '../services/prospects';
 import { useState, useEffect } from 'react';
 import './Profile.css';
@@ -6,9 +6,9 @@ import './Profile.css';
 function Profile() {
   const writeup = useLoaderData();
   const navigate = useNavigate();
+  const { user } = useParams();
   const [photoUrl, setPhotoUrl] = useState(null);
   const [playerName, setPlayerName] = useState('Unknown Player');
-  const [isLoading, setIsLoading] = useState(true);
   const [validIds, setValidIds] = useState([]);
   const [showCopied, setShowCopied] = useState(false);
 
@@ -17,13 +17,19 @@ function Profile() {
     const name = localStorage.getItem('playerName');
     if (photo) setPhotoUrl(photo);
     if (name) setPlayerName(name);
-    
+
     fetch('/valid_ids.json')
       .then(res => res.json())
       .then(ids => setValidIds(ids));
-    
-    setTimeout(() => setIsLoading(false), 100);
-  }, []);
+  }, [user]);
+
+  if (!writeup) {
+    return (
+      <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#1a1815' }}>
+        <div style={{ color: '#6b7280' }}>Prospect not found. Redirecting...</div>
+      </div>
+    );
+  }
 
   const {
     result,
@@ -56,27 +62,19 @@ function Profile() {
     setTimeout(() => setShowCopied(false), 2000);
   };
 
-  if (isLoading) {
-    return (
-      <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#1a1815' }}>
-        <div style={{ color: '#6b7280' }}>Loading...</div>
-      </div>
-    );
-  }
-
   return (
     <div className="vintage-card-container">
       <div className="vintage-card">
         <div className="card-wear-layer"></div>
-        
+
         <div className="card-header">
           <h1 className="card-name">{capitalizedName.toUpperCase()}</h1>
         </div>
 
         <div className="card-body">
-          
+
           <div className="stats-grid">
-            
+
             <div className="photo-frame">
               {photoUrl ? (
                 <img src={photoUrl} alt={capitalizedName} />
@@ -100,7 +98,7 @@ function Profile() {
                 <div key={tool.label} className="stat-row">
                   <span className="stat-label">{tool.label}</span>
                   <div className="stat-bar-container">
-                    <div 
+                    <div
                       className={`stat-bar ${getGradeClass(tool.grade)}`}
                       style={{ width: `${((tool.grade - 20) / 60) * 100}%` }}
                     />
@@ -127,7 +125,7 @@ function Profile() {
               Share
             </button>
           </div>
-          
+
           {showCopied && (
             <div className="copied-message">Link copied!</div>
           )}
@@ -142,7 +140,6 @@ export async function loader({ params }) {
     const writeup = await getWriteup(params.user);
     return writeup;
   } catch (error) {
-    window.location.href = '/';
     return null;
   }
 }

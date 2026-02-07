@@ -96,7 +96,7 @@ function Home() {
         @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libre+Franklin:wght@500;700&family=Source+Serif+4:wght@400&display=swap');
         .home-container {
           min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 3rem 1rem; position: relative; overflow: hidden;
-          background: url('/bg-home.png') center / cover no-repeat;
+          background: url('/bg-home.png') center / cover no-repeat fixed;
           background-color: #1a1815;
         }
         .home-card { max-width: 22rem; width: 100%; border-radius: 4px; background: #f4ece0; filter: saturate(0.92); box-shadow: 0 2px 4px rgba(0,0,0,0.15), 0 4px 8px rgba(0,0,0,0.12), 0 8px 16px rgba(0,0,0,0.1), 0 16px 32px rgba(0,0,0,0.08); position: relative; z-index: 10; overflow: hidden; transform: rotate(0.5deg); }
