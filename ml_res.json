@@ -1838,7 +1838,7 @@
     },
     {
       "id": 281,
-      "result": "this player has a modest frame that \u2019s filled out a bit since they were drafted, but they're still relatively small for a corner outfiel.",
+      "result": "this player has a modest frame that\u2019s filled out a bit since they were drafted, but they're still relatively small for a corner outfielder.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 45,
@@ -8210,7 +8210,7 @@
     },
     {
       "id": 1182,
-      "result": "this player still projects as a protot ypical third baseman with plus raw power and a patient approach.",
+      "result": "this player still projects as a prototypical third baseman with plus raw power and a patient approach.",
       "grade_hit": 50,
       "grade_power": 60,
       "grade_run": 45,
@@ -8219,7 +8219,7 @@
     },
     {
       "id": 1183,
-      "result": "this player still projects as a protot ypical shortstop with a strong arm and range, and they have a chance to be an average defender at the position.",
+      "result": "this player still projects as a prototypical shortstop with a strong arm and range, and they have a chance to be an average defender at the position.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 45,
@@ -8534,7 +8534,7 @@
     },
     {
       "id": 1222,
-      "result": "this player\u2019s a good defensive center fielder with a strong arm and a plus run tool, but they're also earning an injury-prone.",
+      "result": "this player\u2019s a good defensive center fielder with a strong arm and a plus run tool, but they're also earning an injury-prone label.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 60,
@@ -8687,7 +8687,7 @@
     },
     {
       "id": 1241,
-      "result": "this player\u2019s a very good defensive center fielder with a strong arm and exceptional range, and they have a chance to be an above-average.",
+      "result": "this player\u2019s a very good defensive center fielder with a strong arm and exceptional range, and they have a chance to be an above-average defender.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 45,
@@ -8768,7 +8768,7 @@
     },
     {
       "id": 1250,
-      "result": "this player\u2019s an above-aver age runner and has a strong arm, so they profiles as a plus defender at shortstop.",
+      "result": "this player\u2019s an above-average runner and has a strong arm, so they profile as a plus defender at shortstop.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 55,
@@ -8777,7 +8777,7 @@
     },
     {
       "id": 1251,
-      "result": "this player\u2019s an above-aver age runner and has a strong arm, so they could be a solid defensive center fielder.",
+      "result": "this player\u2019s an above-average runner and has a strong arm, so they could be a solid defensive center fielder.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 55,
@@ -8786,7 +8786,7 @@
     },
     {
       "id": 1252,
-      "result": "this player\u2019s an above-aver age runner with a good first step, but they're still learning to take the extra base and their routes to the ball.",
+      "result": "this player\u2019s an above-average runner with a good first step, but they're still learning to take the extra base and their routes to the ball.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 55,
@@ -8795,7 +8795,7 @@
     },
     {
       "id": 1253,
-      "result": "this player\u2019s an above-aver age runner with a good first step and a strong arm, giving them a chance to be an average defender at shortstop.",
+      "result": "this player\u2019s an above-average runner with a good first step and a strong arm, giving them a chance to be an average defender at shortstop.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 55,
@@ -8804,7 +8804,7 @@
     },
     {
       "id": 1254,
-      "result": "this player\u2019s an above-aver age runner and has a chance to be an average everyday player.",
+      "result": "this player\u2019s an above-average runner and has a chance to be an average everyday player.",
       "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 55,
@@ -8813,7 +8813,7 @@
     },
     {
       "id": 1255,
-      "result": "this player\u2019s an above-aver age runner with a strong arm and range, and they have a chance to be a solid defensive shortstop.",
+      "result": "this player\u2019s an above-average runner with a strong arm and range, and they have a chance to be a solid defensive shortstop.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 55,
@@ -8822,7 +8822,7 @@
     },
     {
       "id": 1256,
-      "result": "this player\u2019s an above-aver age runner and defensive center fielder with a strong arm, but their time horizon to the big leagues has shifted dramatically.",
+      "result": "this player\u2019s an above-average runner and defensive center fielder with a strong arm, but their time horizon to the big leagues has shifted dramatically.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 55,
@@ -8831,7 +8831,7 @@
     },
     {
       "id": 1257,
-      "result": "this player\u2019s an above-aver age runner and viable defensive center fielder with plus speed and a strong arm.",
+      "result": "this player\u2019s an above-average runner and viable defensive center fielder with plus speed and a strong arm.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 60,
@@ -8840,7 +8840,7 @@
     },
     {
       "id": 1258,
-      "result": "this player\u2019s an above-aver age runner with a strong arm, so they could be a valuable utility player.",
+      "result": "this player\u2019s an above-average runner with a strong arm, so they could be a valuable utility player.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 55,
@@ -8849,7 +8849,7 @@
     },
     {
       "id": 1259,
-      "result": "this player\u2019s an above-aver age runner with a strong arm and good hands, so they have the tools to be an average everyday player.",
+      "result": "this player\u2019s an above-average runner with a strong arm and good hands, so they have the tools to be an average everyday player.",
       "grade_hit": 50,
       "grade_power": 45,
       "grade_run": 55,
@@ -8858,7 +8858,7 @@
     },
     {
       "id": 1260,
-      "result": "this player\u2019s an above-aver age runner with a strong arm, so they have a chance to be a plus defender at shortstop.",
+      "result": "this player\u2019s an above-average runner with a strong arm, so they have a chance to be a plus defender at shortstop.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 55,
@@ -8867,7 +8867,7 @@
     },
     {
       "id": 1261,
-      "result": "this player\u2019s an above-aver age runner with a strong arm, and they have a chance to be a plus defender at shortstop.",
+      "result": "this player\u2019s an above-average runner with a strong arm, and they have a chance to be a plus defender at shortstop.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 55,
@@ -8876,7 +8876,7 @@
     },
     {
       "id": 1262,
-      "result": "this player\u2019s an above-aver age runner and viable defensive center fielder with a strong arm, so they have a chance to be a plus defender.",
+      "result": "this player\u2019s an above-average runner and viable defensive center fielder with a strong arm, so they have a chance to be a plus defender.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 55,
@@ -8975,7 +8975,7 @@
     },
     {
       "id": 1276,
-      "result": "this player\u2019s an average runner with a strong arm and a lightning-quick transfer, and they have a chance to be an above-average defensive.",
+      "result": "this player\u2019s an average runner with a strong arm and a lightning-quick transfer, and they have a chance to be an above-average defensive player.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 50,
@@ -9029,7 +9029,7 @@
     },
     {
       "id": 1283,
-      "result": "this player\u2019s an intriguing defensive center fielder with a strong arm and good hands, but they're also earning an injury-prone.",
+      "result": "this player\u2019s an intriguing defensive center fielder with a strong arm and good hands, but they're also earning an injury-prone label.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 45,
@@ -9128,7 +9128,7 @@
     },
     {
       "id": 1300,
-      "result": "this player\u2019s been hurt numerous times in their career, but when they're healthy, they have a chance to be an above-average defensive.",
+      "result": "this player\u2019s been hurt numerous times in their career, but when they're healthy, they have a chance to be an above-average defender.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 45,
@@ -9227,7 +9227,7 @@
     },
     {
       "id": 1318,
-      "result": "this player\u2019s defense has improved dram atically, and they're a solid receiver with a strong arm.",
+      "result": "this player\u2019s defense has improved dramatically, and they're a solid receiver with a strong arm.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 45,
@@ -9236,7 +9236,7 @@
     },
     {
       "id": 1319,
-      "result": "this player\u2019s defense has improved dram atically, but they're still not a plus defender at shortstop.",
+      "result": "this player\u2019s defense has improved dramatically, but they're still not a plus defender at shortstop.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 45,
@@ -9245,7 +9245,7 @@
     },
     {
       "id": 1320,
-      "result": "this player\u2019s defense has improved dram atically, but they're still learning the finer aspects of the position.",
+      "result": "this player\u2019s defense has improved dramatically, but they're still learning the finer aspects of the position.",
       "grade_hit": 45,
       "grade_power": 45,
       "grade_run": 45,
