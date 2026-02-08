@@ -44,10 +44,12 @@ function Profile() {
   const personalizedReport = result.replace(/this player/gi, capitalizedName);
 
   const getGradeClass = (grade) => {
-    if (grade >= 70) return 'grade-elite';
-    if (grade >= 55) return 'grade-good';
-    if (grade >= 40) return 'grade-avg';
-    return 'grade-below';
+    if (grade >= 70) return 'grade-elite';       // Solid Blue - Superstar/Outstanding
+    if (grade >= 60) return 'grade-excellent';    // Teal/Light Blue - Excellent/Above Average
+    if (grade >= 50) return 'grade-good';         // Green - Good/Above Average
+    if (grade >= 40) return 'grade-avg';          // Yellow - Average/Major League Average
+    if (grade >= 30) return 'grade-below';        // Orange - Below Average
+    return 'grade-poor';                          // Red - Poor/Well Below Average
   };
 
   const handleReroll = () => {

@@ -219,11 +219,13 @@
   transition: width 0.5s ease-out;
 }
 
-/* Grade colors (20-80 scale) */
-.stat-bar.grade-elite { background: #5a9aba; }
-.stat-bar.grade-good  { background: #5a9a5a; }
-.stat-bar.grade-avg   { background: #c4a84a; }
-.stat-bar.grade-below { background: #ba6a3a; }
+/* Grade colors — OOTP 20-80 scale */
+.stat-bar.grade-elite     { background: #3070b0; } /* Solid Blue — 70-80 */
+.stat-bar.grade-excellent { background: #48a0a0; } /* Teal/Light Blue — 60-69 */
+.stat-bar.grade-good      { background: #4a9a4a; } /* Green — 50-59 */
+.stat-bar.grade-avg       { background: #c8b830; } /* Yellow — 40-49 */
+.stat-bar.grade-below     { background: #d08030; } /* Orange — 30-39 */
+.stat-bar.grade-poor      { background: #c04040; } /* Red — 20-29 */
 
 .stat-value {
   font-family: 'Libre Franklin', sans-serif;
