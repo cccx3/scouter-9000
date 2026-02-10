@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import './Home.css';
 
 function Home() {
   const [name, setName] = useState('');
@@ -9,7 +10,6 @@ function Home() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Clear previous session data on fresh start
     localStorage.removeItem('playerPhoto');
     localStorage.removeItem('playerName');
     
@@ -91,46 +91,6 @@ function Home() {
           </form>
         </div>
       </div>
-
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libre+Franklin:wght@500;700&family=Source+Serif+4:wght@400&display=swap');
-        .home-container {
-          min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 3rem 1rem; position: relative; overflow: hidden;
-          background: url('/bg-home.png') center / cover no-repeat fixed;
-          background-color: #1a1815;
-        }
-        .home-card { max-width: 22rem; width: 100%; border-radius: 4px; background: #f4ece0; filter: saturate(0.92); box-shadow: 0 2px 4px rgba(0,0,0,0.15), 0 4px 8px rgba(0,0,0,0.12), 0 8px 16px rgba(0,0,0,0.1), 0 16px 32px rgba(0,0,0,0.08); position: relative; z-index: 10; overflow: hidden; transform: rotate(0.5deg); }
-        .home-card::before { content: ''; position: absolute; inset: 0; box-shadow: inset 1px 1px 0 rgba(255,255,255,0.4), inset -1px -1px 0 rgba(0,0,0,0.03); border-radius: 4px; z-index: 20; pointer-events: none; }
-        .home-header { background: #2a3038; padding: 0.9rem 1.25rem 1rem; position: relative; border-radius: 4px 4px 0 0; border: 2px solid #1a1a1a; border-bottom: 3px solid #1a1a1a; }
-        .home-header::before { content: ''; position: absolute; inset: 0; border-radius: 2px 2px 0 0; box-shadow: inset 0 1px 0 rgba(255,255,255,0.05); pointer-events: none; }
-        .home-title { font-family: 'Archivo Black', sans-serif; font-size: clamp(1.2rem, 5vw, 1.6rem); font-weight: 400; text-align: center; color: #e8e4dc; letter-spacing: 0.02em; margin: 0 0 0.1rem; }
-        .home-subtitle { font-family: 'Libre Franklin', sans-serif; font-size: 0.65rem; font-weight: 500; text-align: center; color: rgba(232,228,220,0.6); letter-spacing: 0.08em; margin: 0; text-transform: uppercase; }
-        .home-body { padding: 1.25rem; background: #f4ece0; }
-        .scout-form { display: flex; flex-direction: column; gap: 1rem; }
-        .input-group { display: flex; flex-direction: column; gap: 0.3rem; }
-        .input-label { font-family: 'Libre Franklin', sans-serif; font-size: 0.65rem; font-weight: 700; color: #7a7265; letter-spacing: 0.06em; text-transform: uppercase; }
-        .vintage-input { font-family: 'Source Serif 4', Georgia, serif; font-size: 0.95rem; padding: 0.6rem 0.75rem; background: rgba(255,255,255,0.35); border: 1px solid rgba(0,0,0,0.1); border-radius: 2px; color: #4a4540; transition: all 0.15s ease; }
-        .vintage-input:focus { outline: none; border-color: rgba(148,96,88,0.4); background: rgba(255,255,255,0.5); }
-        .vintage-input::placeholder { color: #a09a90; }
-        .photo-dropzone { border: 1px dashed rgba(0,0,0,0.15); border-radius: 2px; background: rgba(255,255,255,0.2); transition: all 0.15s ease; }
-        .photo-dropzone.dragging { border-color: rgba(148,96,88,0.4); background: rgba(148,96,88,0.08); }
-        .photo-dropzone.has-photo { border-style: solid; border-color: rgba(90,110,90,0.25); background: rgba(90,110,90,0.06); }
-        .dropzone-label { display: flex; flex-direction: column; align-items: center; gap: 0.3rem; padding: 1rem; cursor: pointer; color: #8a8580; transition: color 0.15s ease; }
-        .dropzone-label:hover { color: #6a6560; }
-        .upload-icon { width: 1.25rem; height: 1.25rem; opacity: 0.4; }
-        .dropzone-label span { font-family: 'Libre Franklin', sans-serif; font-size: 0.65rem; font-weight: 500; }
-        .hidden-input { display: none; }
-        .photo-preview-row { display: flex; align-items: center; gap: 0.6rem; padding: 0.5rem 0.6rem; }
-        .preview-thumb { width: 36px; height: 36px; border-radius: 1px; overflow: hidden; border: 1px solid rgba(0,0,0,0.1); }
-        .preview-thumb img { width: 100%; height: 100%; object-fit: cover; filter: sepia(0.2) saturate(0.7); }
-        .preview-text { flex: 1; font-family: 'Libre Franklin', sans-serif; font-size: 0.7rem; font-weight: 500; color: #6a7a6a; }
-        .remove-photo { background: none; border: none; color: #8a7070; font-size: 1.1rem; cursor: pointer; padding: 0.2rem 0.4rem; opacity: 0.5; transition: opacity 0.15s ease; line-height: 1; }
-        .remove-photo:hover { opacity: 0.8; }
-        .generate-btn { font-family: 'Libre Franklin', sans-serif; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; padding: 0.7rem 1rem; background: #2a3038; border: 2px solid #1a1a1a; border-radius: 3px; color: #e8e4dc; cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,0.2); transition: all 0.15s ease; margin-top: 0.25rem; }
-        .generate-btn:hover { background: #3a4048; transform: translateY(-1px); }
-        .generate-btn:active { transform: translateY(0); }
-        @media (max-width: 480px) { .home-card { max-width: 95%; transform: rotate(0); } }
-      `}</style>
     </div>
   )
 }

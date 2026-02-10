@@ -1,6 +1,7 @@
 import { useLoaderData, useNavigate, useParams } from 'react-router-dom';
 import { getWriteup } from '../services/prospects';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import html2canvas from 'html2canvas';
 import './Profile.css';
 
 function Profile() {
@@ -11,6 +12,7 @@ function Profile() {
   const [playerName, setPlayerName] = useState('Unknown Player');
   const [validIds, setValidIds] = useState([]);
   const [showCopied, setShowCopied] = useState(false);
+  const cardRef = useRef(null);
 
   useEffect(() => {
     const photo = localStorage.getItem('playerPhoto');
@@ -58,15 +60,47 @@ function Profile() {
     navigate(`/profile/${randomId}`);
   };
 
-  const handleShare = () => {
-    navigator.clipboard.writeText(window.location.href);
-    setShowCopied(true);
-    setTimeout(() => setShowCopied(false), 2000);
+  const handleShare = async () => {
+    if (!cardRef.current) return;
+
+    try {
+      const canvas = await html2canvas(cardRef.current, {
+        backgroundColor: '#f4ece0',
+        scale: 2,
+        useCORS: true,
+      });
+
+      const blob = await new Promise((res) => canvas.toBlob(res, 'image/png'));
+      const file = new File([blob], `${capitalizedName}-scouting-card.png`, { type: 'image/png' });
+
+      // Native share on mobile if available
+      if (navigator.share && navigator.canShare?.({ files: [file] })) {
+        await navigator.share({
+          title: `${capitalizedName} — Scouter 9000`,
+          files: [file],
+        });
+      } else {
+        // Fallback: download the image
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = file.name;
+        a.click();
+        URL.revokeObjectURL(url);
+        setShowCopied(true);
+        setTimeout(() => setShowCopied(false), 2000);
+      }
+    } catch (err) {
+      // User cancelled share or something failed — fall back to link copy
+      navigator.clipboard.writeText(window.location.href);
+      setShowCopied(true);
+      setTimeout(() => setShowCopied(false), 2000);
+    }
   };
 
   return (
     <div className="vintage-card-container">
-      <div className="vintage-card">
+      <div className="vintage-card" ref={cardRef}>
         <div className="card-wear-layer"></div>
 
         <div className="card-header">
