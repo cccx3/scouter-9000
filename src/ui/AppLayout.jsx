@@ -3,9 +3,9 @@ import { Outlet } from 'react-router-dom';
 
 function AppLayout() {
   return (
-    <div style={{ minHeight: '100vh', background: '#1a1815', display: 'flex', flexDirection: 'column' }}>
+    <div>
       <Header />
-      <main style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+      <main>
         <Outlet />
       </main>
     </div>
