@@ -14,6 +14,7 @@
   overflow: hidden;
   background: url('/bg-profile.png') center / cover no-repeat;
   background-color: #1a1815;
+  min-height: 0;
 }
 
 /* THE CARD */
