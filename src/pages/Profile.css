@@ -382,9 +382,10 @@
   }
 
   .report-text {
-    font-size: 0.95rem;
-    line-height: 1.45;
-    font-weight: 450;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    font-weight: 500;
   }
 
   .card-footer {
