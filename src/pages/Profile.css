@@ -312,19 +312,20 @@
    ================================================ */
 @media (max-width: 600px) {
   .vintage-card-container {
-    /* Exactly fill the space below the header, no more */
-    height: calc(100dvh - 44px);
+    height: calc(100svh - 44px);
     min-height: unset;
     padding: 0.4rem;
     overflow: hidden;
-    /* Flex center the card in this exact space */
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
   }
 
   .vintage-card {
-    max-width: 100%;
+    max-width: calc(100% - 1rem);
     transform: rotate(0);
   }
 
