@@ -382,8 +382,9 @@
   }
 
   .report-text {
-    font-size: 0.85rem;
-    line-height: 1.4;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    font-weight: 450;
   }
 
   .card-footer {
