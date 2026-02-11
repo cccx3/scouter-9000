@@ -52,8 +52,12 @@ function Home() {
     if (photoPreview) {
       localStorage.setItem('playerPhoto', photoPreview);
     }
+    // Blur the active input so Safari can restore the URL bar
+    // before we navigate away
+    document.activeElement?.blur();
+    window.scrollTo(0, 0);
     const randomId = validIds[Math.floor(Math.random() * validIds.length)];
-    navigate(`/profile/${randomId}`);
+    setTimeout(() => navigate(`/profile/${randomId}`), 120);
   };
 
   return (
