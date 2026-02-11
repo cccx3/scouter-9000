@@ -3,7 +3,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Profile, { loader as profileLoader } from "./pages/Profile"
 import AppLayout from './ui/AppLayout';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter, Navigate } from 'react-router-dom';
 
 
 
@@ -24,6 +24,10 @@ const router = createBrowserRouter([
         path: '/profile/:user',
         element: <Profile />,
         loader: profileLoader,
+      },
+      {
+        path: '*',
+        element: <Navigate to="/" replace />,
       },
     ],
   },

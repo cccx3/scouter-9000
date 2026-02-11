@@ -1,20 +1,27 @@
-import { useLoaderData, useNavigate, useParams } from 'react-router-dom';
+import { useLoaderData, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { getWriteup } from '../services/prospects';
 import { useState, useEffect, useRef } from 'react';
-import html2canvas from 'html2canvas';
 import './Profile.css';
 
 function Profile() {
   const writeup = useLoaderData();
   const navigate = useNavigate();
   const { user } = useParams();
+  const [searchParams] = useSearchParams();
   const [photoUrl, setPhotoUrl] = useState(null);
-  const [playerName, setPlayerName] = useState('Unknown Player');
+  const [playerName, setPlayerName] = useState(
+    searchParams.get('name') || 'Unknown Player'
+  );
   const [validIds, setValidIds] = useState([]);
   const [showCopied, setShowCopied] = useState(false);
   const cardRef = useRef(null);
 
   useEffect(() => {
+    document.activeElement?.blur();
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+
     const photo = localStorage.getItem('playerPhoto');
     const name = localStorage.getItem('playerName');
     if (photo) setPhotoUrl(photo);
@@ -27,8 +34,21 @@ function Profile() {
 
   if (!writeup) {
     return (
-      <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#1a1815' }}>
-        <div style={{ color: '#6b7280' }}>Prospect not found. Redirecting...</div>
+      <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#1a1815', flexDirection: 'column', gap: '1rem' }}>
+        <div style={{ color: '#6b7280', fontFamily: "'Libre Franklin', sans-serif" }}>Prospect not found.</div>
+        <button onClick={() => navigate('/')} style={{
+          fontFamily: "'Libre Franklin', sans-serif",
+          fontSize: '0.75rem',
+          fontWeight: 700,
+          textTransform: 'uppercase',
+          letterSpacing: '0.06em',
+          padding: '0.5rem 1.2rem',
+          background: '#2a3038',
+          border: '2px solid #1a1a1a',
+          borderRadius: '3px',
+          color: '#e8e4dc',
+          cursor: 'pointer'
+        }}>Go Home</button>
       </div>
     );
   }
@@ -61,38 +81,21 @@ function Profile() {
   };
 
   const handleShare = async () => {
-    if (!cardRef.current) return;
+    const shareUrl = `${window.location.origin}/profile/${user}?name=${encodeURIComponent(playerName)}`;
 
     try {
-      const canvas = await html2canvas(cardRef.current, {
-        backgroundColor: '#f4ece0',
-        scale: 2,
-        useCORS: true,
-      });
-
-      const blob = await new Promise((res) => canvas.toBlob(res, 'image/png'));
-      const file = new File([blob], `${capitalizedName}-scouting-card.png`, { type: 'image/png' });
-
-      // Native share on mobile if available
-      if (navigator.share && navigator.canShare?.({ files: [file] })) {
+      if (navigator.share) {
         await navigator.share({
           title: `${capitalizedName} — Scouter 9000`,
-          files: [file],
+          url: shareUrl,
         });
       } else {
-        // Fallback: download the image
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = file.name;
-        a.click();
-        URL.revokeObjectURL(url);
+        await navigator.clipboard.writeText(shareUrl);
         setShowCopied(true);
         setTimeout(() => setShowCopied(false), 2000);
       }
     } catch (err) {
-      // User cancelled share or something failed — fall back to link copy
-      navigator.clipboard.writeText(window.location.href);
+      await navigator.clipboard.writeText(shareUrl);
       setShowCopied(true);
       setTimeout(() => setShowCopied(false), 2000);
     }
