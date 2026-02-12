@@ -8,7 +8,7 @@
   background: url('/bg-home.png') center / cover no-repeat;
   background-color: #1a1815;
   min-height: 100vh;
-  padding: 3rem 1rem;
+  padding: 1.5rem 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -251,6 +251,8 @@
     min-height: unset;
     height: calc(100dvh - 44px);
     overflow: hidden;
+    align-items: flex-start;
+    padding-top: 10dvh;
   }
 
   .home-card {
