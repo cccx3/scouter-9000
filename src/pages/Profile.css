@@ -10,12 +10,14 @@
   min-height: 100vh;
   padding: 1rem 1rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  padding-top: 6vh;
 }
 
 .vintage-card {
-  max-width: 32rem;
+  max-width: 34rem;
+  max-height: 85vh;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -29,6 +31,9 @@
     0 8px 16px rgba(0,0,0,0.1),
     0 16px 32px rgba(0,0,0,0.08);
   transform: rotate(-0.5deg);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .vintage-card::before {
@@ -73,6 +78,7 @@
   border-radius: 4px 4px 0 0;
   display: flex;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .card-name {
@@ -111,6 +117,8 @@
   padding: 1rem 1.25rem;
   position: relative;
   background: #f4ece0;
+  flex: 1;
+  overflow: hidden;
 }
 
 .card-body::before {
@@ -258,6 +266,7 @@
   padding: 0.75rem 1.25rem 1rem;
   border-radius: 0 0 4px 4px;
   background: #f0e8dc;
+  flex-shrink: 0;
 }
 
 .button-group {
@@ -317,12 +326,14 @@
     padding: 0.4rem;
     overflow: hidden;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    padding-top: 3dvh;
   }
 
   .vintage-card {
     max-width: calc(100% - 1rem);
+    max-height: 78dvh;
     transform: rotate(0);
   }
 
