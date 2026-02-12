@@ -10,6 +10,9 @@ function Home() {
   const navigate = useNavigate();
 
   useEffect(() => {
+    document.activeElement?.blur();
+    window.scrollTo(0, 0);
+
     localStorage.removeItem('playerPhoto');
     localStorage.removeItem('playerName');
     
