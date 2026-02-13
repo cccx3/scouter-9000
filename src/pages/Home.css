@@ -12,11 +12,11 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 10vh;
+  padding-top: 14vh;
 }
 
 .home-card {
-  max-width: 30rem;
+  max-width: 34rem;
   width: 100%;
   border-radius: 4px;
   background: #f4ece0;
@@ -253,7 +253,7 @@
     height: calc(100dvh - 44px);
     overflow: hidden;
     align-items: flex-start;
-    padding-top: 3.5dvh;
+    padding-top: 4dvh;
   }
 
   .home-card {

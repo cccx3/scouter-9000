@@ -12,11 +12,11 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 10vh;
+  padding-top: 12vh;
 }
 
 .vintage-card {
-  max-width: 32rem;
+  max-width: 38rem;
   max-height: 82vh;
   width: 100%;
   margin: 0 auto;
@@ -122,7 +122,6 @@
   overflow-x: hidden;
 }
 
-/* Thin styled scrollbar for scouting report overflow */
 .card-body::-webkit-scrollbar {
   width: 5px;
 }
@@ -345,7 +344,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    padding-top: 3.5dvh;
+    padding-top: 4dvh;
   }
 
   .vintage-card {
