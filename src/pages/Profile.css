@@ -345,12 +345,12 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    padding-top: 5.5dvh;
+    padding-top: 2.5dvh;
   }
 
   .vintage-card {
     max-width: calc(100% - 1rem);
-    height: 82dvh;
+    height: 85dvh;
     max-height: unset;
     transform: rotate(0);
   }
@@ -412,7 +412,7 @@
 
   .report-title {
     font-size: 0.6rem;
-    margin-bottom: 0;
+    margin-bottom: 0.4rem;
     padding: 0.2rem 0.5rem;
     flex-shrink: 0;
   }
