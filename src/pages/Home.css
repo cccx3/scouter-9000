@@ -16,7 +16,7 @@
 }
 
 .home-card {
-  max-width: 32rem;
+  max-width: 30rem;
   width: 100%;
   border-radius: 4px;
   background: #f4ece0;
@@ -253,7 +253,7 @@
     height: calc(100dvh - 44px);
     overflow: hidden;
     align-items: flex-start;
-    padding-top: 6dvh;
+    padding-top: 3.5dvh;
   }
 
   .home-card {
