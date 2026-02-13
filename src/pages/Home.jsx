@@ -23,6 +23,10 @@ function Home() {
 
   const handlePhotoUpload = (file) => {
     if (file && file.type.startsWith('image/')) {
+      if (file.size > 3 * 1024 * 1024) {
+        alert('Photo is too large (max 3MB). Please upload a smaller image.');
+        return;
+      }
       const reader = new FileReader();
       reader.onloadend = () => {
         setPhotoPreview(reader.result);
