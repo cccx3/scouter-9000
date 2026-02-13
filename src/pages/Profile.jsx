@@ -135,7 +135,6 @@ function Profile() {
     const card = cardRef.current;
     if (!card) return;
 
-    // Temporarily hide the footer so buttons aren't in the screenshot
     const footer = card.querySelector('.card-footer');
     if (footer) footer.style.display = 'none';
 
@@ -149,13 +148,31 @@ function Profile() {
 
       if (footer) footer.style.display = '';
 
+      const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+      const fileName = `${capitalizedName.toLowerCase()}-scouter9000.png`;
+
+      // Mobile: use share sheet so user can save to Photos, AirDrop, etc.
+      if (navigator.share && navigator.canShare) {
+        const file = new File([blob], fileName, { type: 'image/png' });
+        if (navigator.canShare({ files: [file] })) {
+          await navigator.share({
+            title: `${capitalizedName} — Scouter 9000`,
+            files: [file],
+          });
+          return;
+        }
+      }
+
+      // Desktop fallback: direct download
+      const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
-      link.download = `${capitalizedName.toLowerCase()}-scouter9000.png`;
-      link.href = canvas.toDataURL('image/png');
+      link.download = fileName;
+      link.href = url;
       link.click();
+      URL.revokeObjectURL(url);
     } catch (err) {
       if (footer) footer.style.display = '';
-      console.error('Download failed:', err);
+      console.error('Save failed:', err);
     }
   };
 
@@ -219,7 +236,7 @@ function Profile() {
               Generate Another
             </button>
             <button onClick={handleDownload} className="vintage-button button-secondary">
-              Download
+              Save
             </button>
           </div>
         </div>
