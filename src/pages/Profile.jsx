@@ -19,17 +19,21 @@ function Profile() {
   const reportTextRef = useRef(null);
 
   const fitReportText = useCallback(() => {
+    if (window.innerWidth > 600) return;
     const box = reportBoxRef.current;
     const text = reportTextRef.current;
     if (!box || !text) return;
 
+    // Reset text size to minimum first so box isn't inflated by previous size
+    text.style.fontSize = '0.5rem';
+
     const title = box.querySelector('.report-title');
     const titleH = title ? title.offsetHeight + parseFloat(getComputedStyle(title).marginBottom || 0) : 0;
     const boxPad = parseFloat(getComputedStyle(box).paddingTop) + parseFloat(getComputedStyle(box).paddingBottom);
-    const available = box.offsetHeight - titleH - boxPad;
+    const available = box.offsetHeight - titleH - boxPad - 8; // 8px safety margin
 
-    const minSize = 0.65;
-    const maxSize = 1.2;
+    const minSize = 0.55;
+    const maxSize = 0.95;
     let lo = minSize, hi = maxSize;
 
     for (let i = 0; i < 15; i++) {
