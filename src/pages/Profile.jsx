@@ -1,6 +1,6 @@
 import { useLoaderData, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { getWriteup } from '../services/prospects';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import './Profile.css';
 
 function Profile() {
@@ -15,6 +15,34 @@ function Profile() {
   const [validIds, setValidIds] = useState([]);
   const [showCopied, setShowCopied] = useState(false);
   const cardRef = useRef(null);
+  const reportBoxRef = useRef(null);
+  const reportTextRef = useRef(null);
+
+  const fitReportText = useCallback(() => {
+    const box = reportBoxRef.current;
+    const text = reportTextRef.current;
+    if (!box || !text) return;
+
+    const title = box.querySelector('.report-title');
+    const titleH = title ? title.offsetHeight + parseFloat(getComputedStyle(title).marginBottom || 0) : 0;
+    const boxPad = parseFloat(getComputedStyle(box).paddingTop) + parseFloat(getComputedStyle(box).paddingBottom);
+    const available = box.offsetHeight - titleH - boxPad;
+
+    const minSize = 0.65;
+    const maxSize = 1.2;
+    let lo = minSize, hi = maxSize;
+
+    for (let i = 0; i < 15; i++) {
+      const mid = (lo + hi) / 2;
+      text.style.fontSize = mid + 'rem';
+      if (text.scrollHeight > available) {
+        hi = mid;
+      } else {
+        lo = mid;
+      }
+    }
+    text.style.fontSize = lo + 'rem';
+  }, []);
 
   useEffect(() => {
     document.activeElement?.blur();
@@ -31,6 +59,12 @@ function Profile() {
       .then(res => res.json())
       .then(ids => setValidIds(ids));
   }, [user]);
+
+  useEffect(() => {
+    fitReportText();
+    window.addEventListener('resize', fitReportText);
+    return () => window.removeEventListener('resize', fitReportText);
+  }, [user, fitReportText]);
 
   if (!writeup) {
     return (
@@ -148,9 +182,9 @@ function Profile() {
             </div>
           </div>
 
-          <div className="report-box">
+          <div className="report-box" ref={reportBoxRef}>
             <h2 className="report-title">Scouting Report</h2>
-            <p className="report-text">{personalizedReport}</p>
+            <p className="report-text" ref={reportTextRef}>{personalizedReport}</p>
           </div>
 
         </div>
