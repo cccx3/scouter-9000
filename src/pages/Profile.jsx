@@ -13,7 +13,6 @@ function Profile() {
     searchParams.get('name') || 'Unknown Player'
   );
   const [validIds, setValidIds] = useState([]);
-  const [showCopied, setShowCopied] = useState(false);
   const cardRef = useRef(null);
   const reportBoxRef = useRef(null);
   const reportTextRef = useRef(null);
@@ -132,24 +131,31 @@ function Profile() {
     navigate(`/profile/${randomId}`);
   };
 
-  const handleShare = async () => {
-    const shareUrl = `${window.location.origin}/profile/${user}?name=${encodeURIComponent(playerName)}`;
+  const handleDownload = async () => {
+    const card = cardRef.current;
+    if (!card) return;
+
+    // Temporarily hide the footer so buttons aren't in the screenshot
+    const footer = card.querySelector('.card-footer');
+    if (footer) footer.style.display = 'none';
 
     try {
-      if (navigator.share) {
-        await navigator.share({
-          title: `${capitalizedName} — Scouter 9000`,
-          url: shareUrl,
-        });
-      } else {
-        await navigator.clipboard.writeText(shareUrl);
-        setShowCopied(true);
-        setTimeout(() => setShowCopied(false), 2000);
-      }
+      const { default: html2canvas } = await import('html2canvas');
+      const canvas = await html2canvas(card, {
+        backgroundColor: null,
+        scale: 3,
+        useCORS: true,
+      });
+
+      if (footer) footer.style.display = '';
+
+      const link = document.createElement('a');
+      link.download = `${capitalizedName.toLowerCase()}-scouter9000.png`;
+      link.href = canvas.toDataURL('image/png');
+      link.click();
     } catch (err) {
-      await navigator.clipboard.writeText(shareUrl);
-      setShowCopied(true);
-      setTimeout(() => setShowCopied(false), 2000);
+      if (footer) footer.style.display = '';
+      console.error('Download failed:', err);
     }
   };
 
@@ -212,14 +218,10 @@ function Profile() {
             <button onClick={handleReroll} className="vintage-button button-primary">
               Generate Another
             </button>
-            <button onClick={handleShare} className="vintage-button button-secondary">
-              Share
+            <button onClick={handleDownload} className="vintage-button button-secondary">
+              Download
             </button>
           </div>
-
-          {showCopied && (
-            <div className="copied-message">Link copied!</div>
-          )}
         </div>
       </div>
     </div>
