@@ -12,7 +12,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 14vh;
+  padding-top: 12vh;
 }
 
 .home-card {
@@ -253,7 +253,7 @@
     height: calc(100dvh - 44px);
     overflow: hidden;
     align-items: flex-start;
-    padding-top: 4dvh;
+    padding-top: 5.5dvh;
   }
 
   .home-card {
