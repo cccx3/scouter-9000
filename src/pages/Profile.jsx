@@ -20,20 +20,34 @@ function Profile() {
 
   const fitReportText = useCallback(() => {
     if (window.innerWidth > 600) return;
+    const card = cardRef.current;
     const box = reportBoxRef.current;
     const text = reportTextRef.current;
-    if (!box || !text) return;
+    if (!card || !box || !text) return;
 
-    // Reset text size to minimum first so box isn't inflated by previous size
-    text.style.fontSize = '0.5rem';
+    // Measure fixed elements to calculate available space for report text
+    const header = card.querySelector('.card-header');
+    const statsGrid = card.querySelector('.stats-grid');
+    const footer = card.querySelector('.card-footer');
+    const cardBody = card.querySelector('.card-body');
 
-    const title = box.querySelector('.report-title');
-    const titleH = title ? title.offsetHeight + parseFloat(getComputedStyle(title).marginBottom || 0) : 0;
+    const cardH = card.offsetHeight;
+    const headerH = header ? header.offsetHeight : 0;
+    const statsH = statsGrid ? statsGrid.offsetHeight : 0;
+    const footerH = footer ? footer.offsetHeight : 0;
+    const bodyPad = cardBody ? parseFloat(getComputedStyle(cardBody).paddingTop) + parseFloat(getComputedStyle(cardBody).paddingBottom) : 0;
     const boxPad = parseFloat(getComputedStyle(box).paddingTop) + parseFloat(getComputedStyle(box).paddingBottom);
-    const available = box.offsetHeight - titleH - boxPad - 8; // 8px safety margin
+    const title = box.querySelector('.report-title');
+
+    // Reset to measure title height accurately
+    text.style.fontSize = '0.5rem';
+    const titleH = title ? title.offsetHeight + 6 : 0; // 6px gap below title
+    const statsMargin = statsGrid ? parseFloat(getComputedStyle(statsGrid).marginBottom) : 0;
+
+    const available = cardH - headerH - statsH - statsMargin - footerH - bodyPad - boxPad - titleH - 12;
 
     const minSize = 0.55;
-    const maxSize = 0.95;
+    const maxSize = 1.1;
     let lo = minSize, hi = maxSize;
 
     for (let i = 0; i < 15; i++) {
