@@ -168,8 +168,8 @@
 
 .dropzone-label span {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 0.8rem;
-  font-weight: 500;
+  font-size: 0.85rem;
+  font-weight: 600;
 }
 
 .hidden-input { display: none; }
