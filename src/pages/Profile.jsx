@@ -151,8 +151,10 @@ function Profile() {
       const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
       const fileName = `${capitalizedName.toLowerCase()}-scouter9000.png`;
 
+      const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
       // Mobile: use share sheet so user can save to Photos, AirDrop, etc.
-      if (navigator.share && navigator.canShare) {
+      if (isMobile && navigator.share && navigator.canShare) {
         const file = new File([blob], fileName, { type: 'image/png' });
         if (navigator.canShare({ files: [file] })) {
           await navigator.share({
