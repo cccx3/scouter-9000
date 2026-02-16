@@ -14,8 +14,29 @@ function Profile() {
   );
   const [validIds, setValidIds] = useState([]);
   const cardRef = useRef(null);
+  const nameRef = useRef(null);
   const reportBoxRef = useRef(null);
   const reportTextRef = useRef(null);
+
+  const fitNameText = useCallback(() => {
+    const el = nameRef.current;
+    if (!el) return;
+    const isMobile = window.innerWidth <= 600;
+    const baseSize = isMobile ? 1.15 : 1.7;
+    const minSize = isMobile ? 0.65 : 0.9;
+    // Temporarily allow overflow so scrollWidth reflects real text width
+    el.style.overflow = 'visible';
+    el.style.textOverflow = 'clip';
+    el.style.fontSize = baseSize + 'rem';
+    let size = baseSize;
+    while (el.scrollWidth > el.clientWidth && size > minSize) {
+      size -= 0.05;
+      el.style.fontSize = size + 'rem';
+    }
+    // Restore overflow as safety net
+    el.style.overflow = 'hidden';
+    el.style.textOverflow = 'ellipsis';
+  }, []);
 
   const fitReportText = useCallback(() => {
     if (window.innerWidth > 600) return;
@@ -78,10 +99,12 @@ function Profile() {
   }, [user]);
 
   useEffect(() => {
+    fitNameText();
     fitReportText();
-    window.addEventListener('resize', fitReportText);
-    return () => window.removeEventListener('resize', fitReportText);
-  }, [user, fitReportText]);
+    const handleResize = () => { fitNameText(); fitReportText(); };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [user, fitNameText, fitReportText]);
 
   if (!writeup) {
     return (
@@ -113,7 +136,7 @@ function Profile() {
     grade_field = 50
   } = writeup;
 
-  const capitalizedName = playerName.charAt(0).toUpperCase() + playerName.slice(1);
+  const capitalizedName = (playerName.charAt(0).toUpperCase() + playerName.slice(1)).slice(0, 24);
   const personalizedReport = result.replace(/this player/gi, capitalizedName);
 
   const getGradeClass = (grade) => {
@@ -184,7 +207,7 @@ function Profile() {
         <div className="card-wear-layer"></div>
 
         <div className="card-header">
-          <h1 className="card-name">{capitalizedName.toUpperCase()}</h1>
+          <h1 className="card-name" ref={nameRef}>{capitalizedName.toUpperCase()}</h1>
         </div>
 
         <div className="card-body">

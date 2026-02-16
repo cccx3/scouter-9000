@@ -78,7 +78,7 @@ function Home() {
           <form onSubmit={handleSubmit} className="scout-form">
             <div className="input-group">
               <label className="input-label">Player Name</label>
-              <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Enter name..." required className="vintage-input" />
+              <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Enter name..." required className="vintage-input" maxLength={24} />
             </div>
             <div className="input-group">
               <label className="input-label">Photo (Optional)</label>
