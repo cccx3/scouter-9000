@@ -11,7 +11,7 @@ function About() {
       alignItems: 'flex-start'
     }}>
       <div style={{
-        maxWidth: '32rem',
+        maxWidth: '64rem',
         width: '100%',
         background: '#f4ece0',
         borderRadius: '4px',
@@ -20,19 +20,19 @@ function About() {
       }}>
         {/* Header */}
         <div style={{
-          padding: '1.25rem',
+          padding: 'clamp(1.25rem, 2vw, 2.5rem)',
           display: 'flex',
           justifyContent: 'center'
         }}>
           <h1 style={{
             fontFamily: "'Archivo Black', sans-serif",
-            fontSize: '1.3rem',
+            fontSize: 'clamp(1.3rem, 2vw, 2rem)',
             fontWeight: 400,
             color: '#2a2825',
             textTransform: 'uppercase',
             letterSpacing: '0.02em',
             margin: 0,
-            padding: '0.6rem 1.5rem',
+            padding: 'clamp(0.6rem, 1vw, 1rem) clamp(1.5rem, 2.5vw, 2.5rem)',
             position: 'relative',
             background: 'rgba(120, 45, 40, 0.38)',
             clipPath: 'polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px)'
@@ -41,33 +41,33 @@ function About() {
 
         {/* Body */}
         <div style={{
-          padding: '1rem 1.5rem 1.5rem',
+          padding: 'clamp(1rem, 2.5vw, 2.5rem) clamp(1.5rem, 3vw, 3.5rem) clamp(1.5rem, 3vw, 3.5rem)',
           background: '#f4ece0'
         }}>
           <div style={{
             background: '#f8f5f0',
             borderRadius: '3px',
-            padding: '1rem 1.1rem',
+            padding: 'clamp(1rem, 2vw, 2rem) clamp(1.1rem, 2.5vw, 2.5rem)',
             border: '1px solid #e0d8cc',
-            marginBottom: '1rem'
+            marginBottom: 'clamp(1rem, 1.5vw, 1.5rem)'
           }}>
             <h2 style={{
               fontFamily: "'Archivo Black', sans-serif",
-              fontSize: '0.7rem',
+              fontSize: 'clamp(0.7rem, 0.9vw, 0.95rem)',
               fontWeight: 400,
               textTransform: 'uppercase',
               letterSpacing: '0.1em',
               color: '#2a2825',
-              margin: '0 0 0.8rem 0',
-              padding: '0.4rem 0.8rem',
+              margin: '0 0 clamp(0.8rem, 1.2vw, 1.2rem) 0',
+              padding: 'clamp(0.4rem, 0.6vw, 0.6rem) clamp(0.8rem, 1vw, 1.2rem)',
               background: 'rgba(120, 45, 40, 0.25)',
               display: 'inline-block',
               borderRadius: '2px'
             }}>What is this?</h2>
             <p style={{
               fontFamily: "'Source Serif 4', Georgia, serif",
-              fontSize: '0.95rem',
-              lineHeight: 1.6,
+              fontSize: 'clamp(0.95rem, 1.3vw, 1.25rem)',
+              lineHeight: 1.7,
               color: '#2a2825',
               margin: 0
             }}>
@@ -79,26 +79,26 @@ function About() {
           <div style={{
             background: '#f8f5f0',
             borderRadius: '3px',
-            padding: '1rem 1.1rem',
+            padding: 'clamp(1rem, 2vw, 2rem) clamp(1.1rem, 2.5vw, 2.5rem)',
             border: '1px solid #e0d8cc'
           }}>
             <h2 style={{
               fontFamily: "'Archivo Black', sans-serif",
-              fontSize: '0.7rem',
+              fontSize: 'clamp(0.7rem, 0.9vw, 0.95rem)',
               fontWeight: 400,
               textTransform: 'uppercase',
               letterSpacing: '0.1em',
               color: '#2a2825',
-              margin: '0 0 0.8rem 0',
-              padding: '0.4rem 0.8rem',
+              margin: '0 0 clamp(0.8rem, 1.2vw, 1.2rem) 0',
+              padding: 'clamp(0.4rem, 0.6vw, 0.6rem) clamp(0.8rem, 1vw, 1.2rem)',
               background: 'rgba(120, 45, 40, 0.25)',
               display: 'inline-block',
               borderRadius: '2px'
             }}>How does it work?</h2>
             <p style={{
               fontFamily: "'Source Serif 4', Georgia, serif",
-              fontSize: '0.95rem',
-              lineHeight: 1.6,
+              fontSize: 'clamp(0.95rem, 1.3vw, 1.25rem)',
+              lineHeight: 1.7,
               color: '#2a2825',
               margin: 0
             }}>
