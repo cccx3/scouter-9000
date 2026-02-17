@@ -20,7 +20,7 @@ function About() {
       }}>
         {/* Header */}
         <div style={{
-          padding: 'clamp(1.25rem, 2vw, 2.5rem)',
+          padding: 'clamp(1.25rem, 1.5vw, 1.5rem)',
           display: 'flex',
           justifyContent: 'center'
         }}>
@@ -41,15 +41,15 @@ function About() {
 
         {/* Body */}
         <div style={{
-          padding: 'clamp(1rem, 2.5vw, 2.5rem) clamp(1.5rem, 3vw, 3.5rem) clamp(1.5rem, 3vw, 3.5rem)',
+          padding: 'clamp(1rem, 1.5vw, 1.5rem) clamp(1.5rem, 2.5vw, 2.5rem) clamp(1.5rem, 2.5vw, 2.5rem)',
           background: '#f4ece0'
         }}>
           <div style={{
             background: '#f8f5f0',
             borderRadius: '3px',
-            padding: 'clamp(1rem, 2vw, 2rem) clamp(1.1rem, 2.5vw, 2.5rem)',
+            padding: 'clamp(1rem, 1.3vw, 1.3rem) clamp(1.1rem, 1.5vw, 1.5rem)',
             border: '1px solid #e0d8cc',
-            marginBottom: 'clamp(1rem, 1.5vw, 1.5rem)'
+            marginBottom: 'clamp(1rem, 1.2vw, 1.2rem)'
           }}>
             <h2 style={{
               fontFamily: "'Archivo Black', sans-serif",
@@ -79,7 +79,7 @@ function About() {
           <div style={{
             background: '#f8f5f0',
             borderRadius: '3px',
-            padding: 'clamp(1rem, 2vw, 2rem) clamp(1.1rem, 2.5vw, 2.5rem)',
+            padding: 'clamp(1rem, 1.3vw, 1.3rem) clamp(1.1rem, 1.5vw, 1.5rem)',
             border: '1px solid #e0d8cc'
           }}>
             <h2 style={{
