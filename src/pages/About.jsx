@@ -11,7 +11,7 @@ function About() {
       alignItems: 'flex-start'
     }}>
       <div style={{
-        maxWidth: '64rem',
+        maxWidth: '42rem',
         width: '100%',
         background: '#f4ece0',
         borderRadius: '4px',
